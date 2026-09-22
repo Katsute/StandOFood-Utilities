@@ -1,0 +1,20 @@
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    labels: [dependencies]
+    assignees: [Katsute]
+    schedule:
+      interval: monthly
+      time: "00:00"
+      timezone: US/Eastern
+    open-pull-requests-limit: 10
+  - package-ecosystem: maven
+    directory: /
+    labels: [dependencies]
+    assignees: [Katsute]
+    schedule:
+      interval: monthly
+      time: "00:00"
+      timezone: US/Eastern
+    open-pull-requests-limit: 10

@@ -1,0 +1,25 @@
+name: Delete Labels
+on:
+  schedule:
+    - cron: 0 16 * * 1
+  workflow_dispatch:
+
+permissions:
+  issues: write
+
+jobs:
+  delete:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v5
+
+      - name: gh label delete
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |-
+          gh label delete dependencies --yes || true
+          gh label delete javascript --yes || true
+          gh label delete typescript --yes || true
+          gh label delete java --yes || true
+          gh label delete python --yes || true

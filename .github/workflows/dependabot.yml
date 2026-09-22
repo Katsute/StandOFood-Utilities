@@ -1,0 +1,27 @@
+name: Dependabot[bot]
+
+on: [pull_request_target]
+
+permissions:
+  pull-requests: write
+
+jobs:
+  dependabot:
+    name: Dependabot[bot]
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    if: github.event.pull_request.user.login == 'dependabot[bot]'
+    steps:
+      - name: Approve Pull Request
+        continue-on-error: true
+        run: gh pr review $PR --approve
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR: ${{ github.event.pull_request.number }}
+
+      - name: Lock PR
+        continue-on-error: true
+        run: gh pr lock $PR
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR: ${{ github.event.pull_request.number }}
