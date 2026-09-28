@@ -6226,8 +6226,9 @@
             ]
         }
     },
-    "rush_levels": {
-        "Hamburgers": {
+    "rush_levels": [
+        {
+            "name": "Hamburgers",
             "lines": 7,
             "score": 100,
             "bonus": 100,
@@ -6238,7 +6239,8 @@
                 }
             ]
         },
-        "Two Burgers": {
+        {
+            "name": "Two Burgers",
             "lines": 7,
             "score": 150,
             "bonus": 150,
@@ -6253,7 +6255,8 @@
                 }
             ]
         },
-        "Rush Begins": {
+        {
+            "name": "Rush Begins",
             "lines": 7,
             "score": 200,
             "bonus": 200,
@@ -6272,7 +6275,8 @@
                 }
             ]
         },
-        "Meet Cucumbers": {
+        {
+            "name": "Meet Cucumbers",
             "lines": 7,
             "score": 250,
             "bonus": 250,
@@ -6295,7 +6299,8 @@
                 }
             ]
         },
-        "Say Cheese": {
+        {
+            "name": "Say Cheese",
             "lines": 7,
             "score": 300,
             "bonus": 300,
@@ -6326,7 +6331,8 @@
                 }
             ]
         },
-        "Refresh": {
+        {
+            "name": "Refresh",
             "lines": 7,
             "score": 350,
             "bonus": 350,
@@ -6357,7 +6363,8 @@
                 }
             ]
         },
-        "Separate Greens": {
+        {
+            "name": "Separate Greens",
             "lines": 7,
             "score": 400,
             "bonus": 400,
@@ -6388,7 +6395,8 @@
                 }
             ]
         },
-        "Mixed Greens": {
+        {
+            "name": "Mixed Greens",
             "lines": 7,
             "score": 500,
             "bonus": 500,
@@ -6431,7 +6439,8 @@
                 }
             ]
         },
-        "Is It Easier?": {
+        {
+            "name": "Is It Easier?",
             "lines": 7,
             "score": 600,
             "bonus": 500,
@@ -6462,7 +6471,8 @@
                 }
             ]
         },
-        "Hard Rush": {
+        {
+            "name": "Hard Rush",
             "lines": 7,
             "score": 700,
             "bonus": 500,
@@ -6517,7 +6527,8 @@
                 }
             ]
         },
-        "Chaos": {
+        {
+            "name": "Chaos",
             "lines": 7,
             "score": 800,
             "bonus": 750,
@@ -6640,7 +6651,8 @@
                 }
             ]
         },
-        "Impossible": {
+        {
+            "name": "Impossible",
             "lines": 7,
             "score": 1000,
             "bonus": 1000,
@@ -6783,5 +6795,5 @@
                 }
             ]
         }
-    }
+    ]
 }
