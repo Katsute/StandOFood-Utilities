@@ -1,15 +1,5 @@
 {
-    "image": "maven:3-eclipse-temurin-25",
-    "postAttachCommand": "mvn compile",
-    "shutdownAction": "stopContainer",
-    "customizations": {
-        "vscode": {
-            "extensions": [
-                "vscjava.vscode-java-dependency",
-                "vscjava.vscode-java-debug",
-                "vscjava.vscode-maven",
-                "redhat.java"
-            ]
-        }
-    }
+    "image": "node:26",
+    "postAttachCommand": "npm i",
+    "shutdownAction": "stopContainer"
 }

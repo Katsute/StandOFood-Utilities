@@ -1,0 +1,14 @@
+{
+  "name": "standofood-utilities",
+  "private": true,
+  "scripts": {
+    "compile": "node compile.js",
+    "decompile": "node decompile.js",
+    "level": "node level.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Katsute/StandOFood-Utilities.git"
+  },
+  "homepage": "https://github.com/Katsute/StandOFood-Utilities#readme"
+}
