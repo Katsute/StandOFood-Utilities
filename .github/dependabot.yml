@@ -10,7 +10,7 @@ updates:
       timezone: US/Eastern
     open-pull-requests-limit: 10
   - package-ecosystem: npm
-    directory: /*/*
+    directory: /*/
     labels: [dependencies]
     assignees: [Katsute]
     schedule:
