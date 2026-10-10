@@ -1,0 +1,1970 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "Stand O'Food 3 game data",
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+        "customers",
+        "ingredients",
+        "sauces",
+        "snacks",
+        "upgrades",
+        "recipes",
+        "difficulties",
+        "level_bases",
+        "cafes",
+        "consts"
+    ],
+    "properties": {
+        "customers": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+                "Deliveryboy",
+                "FastDeliveryboy",
+                "FastGeek",
+                "FastMom",
+                "FastOldwoman",
+                "FastTeenager",
+                "FastYappie",
+                "FastYounggirl",
+                "Geek",
+                "Mom",
+                "Nikki",
+                "Oldwoman",
+                "Security",
+                "Teenager",
+                "Yappie",
+                "Younggirl"
+            ],
+            "properties": {
+                "Deliveryboy": { "$ref": "#/$defs/customerInfo" },
+                "FastDeliveryboy": { "$ref": "#/$defs/customerInfo" },
+                "FastGeek": { "$ref": "#/$defs/customerInfo" },
+                "FastMom": { "$ref": "#/$defs/customerInfo" },
+                "FastOldwoman": { "$ref": "#/$defs/customerInfo" },
+                "FastTeenager": { "$ref": "#/$defs/customerInfo" },
+                "FastYappie": { "$ref": "#/$defs/customerInfo" },
+                "FastYounggirl": { "$ref": "#/$defs/customerInfo" },
+                "Geek": { "$ref": "#/$defs/customerInfo" },
+                "Mom": { "$ref": "#/$defs/customerInfo" },
+                "Nikki": { "$ref": "#/$defs/customerInfo" },
+                "Oldwoman": { "$ref": "#/$defs/customerInfo" },
+                "Security": { "$ref": "#/$defs/customerInfo" },
+                "Teenager": { "$ref": "#/$defs/customerInfo" },
+                "Yappie": { "$ref": "#/$defs/customerInfo" },
+                "Younggirl": { "$ref": "#/$defs/customerInfo" }
+            }
+        },
+        "ingredients": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+                "Bacon",
+                "Beef",
+                "Bilberry",
+                "BreadBottom",
+                "BreadTop",
+                "Cheese",
+                "Cherry",
+                "Chicken",
+                "Chocolate",
+                "Egg",
+                "FishCake",
+                "Jelly",
+                "Kivi",
+                "LasagnaBacon",
+                "LasagnaBeef",
+                "LasagnaFish",
+                "LasagnaMozarella",
+                "LasagnaMushrooms",
+                "LasagnaNoodle",
+                "LasagnaOnion",
+                "LasagnaSpinach",
+                "LasagnaTomatoes",
+                "Lettuce",
+                "Onion",
+                "Oranges",
+                "Pickles",
+                "Plate",
+                "Rose",
+                "Strawberry",
+                "Tomato",
+                "Waffle"
+            ],
+            "properties": {
+                "Bacon": { "type": "number", "minimum": 0 },
+                "Beef": { "type": "number", "minimum": 0 },
+                "Bilberry": { "type": "number", "minimum": 0 },
+                "BreadBottom": { "type": "number", "minimum": 0 },
+                "BreadTop": { "type": "number", "minimum": 0 },
+                "Cheese": { "type": "number", "minimum": 0 },
+                "Cherry": { "type": "number", "minimum": 0 },
+                "Chicken": { "type": "number", "minimum": 0 },
+                "Chocolate": { "type": "number", "minimum": 0 },
+                "Egg": { "type": "number", "minimum": 0 },
+                "FishCake": { "type": "number", "minimum": 0 },
+                "Jelly": { "type": "number", "minimum": 0 },
+                "Kivi": { "type": "number", "minimum": 0 },
+                "LasagnaBacon": { "type": "number", "minimum": 0 },
+                "LasagnaBeef": { "type": "number", "minimum": 0 },
+                "LasagnaFish": { "type": "number", "minimum": 0 },
+                "LasagnaMozarella": { "type": "number", "minimum": 0 },
+                "LasagnaMushrooms": { "type": "number", "minimum": 0 },
+                "LasagnaNoodle": { "type": "number", "minimum": 0 },
+                "LasagnaOnion": { "type": "number", "minimum": 0 },
+                "LasagnaSpinach": { "type": "number", "minimum": 0 },
+                "LasagnaTomatoes": { "type": "number", "minimum": 0 },
+                "Lettuce": { "type": "number", "minimum": 0 },
+                "Onion": { "type": "number", "minimum": 0 },
+                "Oranges": { "type": "number", "minimum": 0 },
+                "Pickles": { "type": "number", "minimum": 0 },
+                "Plate": { "type": "number", "minimum": 0 },
+                "Rose": { "type": "number", "minimum": 0 },
+                "Strawberry": { "type": "number", "minimum": 0 },
+                "Tomato": { "type": "number", "minimum": 0 },
+                "Waffle": { "type": "number", "minimum": 0 }
+            }
+        },
+        "sauces": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+                "Ketchup",
+                "Curry",
+                "Mayonnaise",
+                "Tartar",
+                "Chile",
+                "Spice",
+                "Cherry",
+                "Whortleberry",
+                "Chocolate",
+                "Candy",
+                "Whip",
+                "SecretCake",
+                "Olive_oil",
+                "Cheese",
+                "KetchupLasagna",
+                "Pepper_oil",
+                "Garlic_oil",
+                "SecretLasagna"
+            ],
+            "properties": {
+                "Ketchup": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["cost", "bonus"],
+                    "properties": {
+                        "cost": { "type": "number", "minimum": 0 },
+                        "bonus": {
+                            "type": "object",
+                            "propertyNames": { "$ref": "#/$defs/bonusIngredient" },
+                            "additionalProperties": { "type": "integer", "minimum": 0 }
+                        }
+                    }
+                },
+                "Curry": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["cost", "bonus"],
+                    "properties": {
+                        "cost": { "type": "number", "minimum": 0 },
+                        "bonus": {
+                            "type": "object",
+                            "propertyNames": { "$ref": "#/$defs/bonusIngredient" },
+                            "additionalProperties": { "type": "integer", "minimum": 0 }
+                        }
+                    }
+                },
+                "Mayonnaise": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["cost", "bonus"],
+                    "properties": {
+                        "cost": { "type": "number", "minimum": 0 },
+                        "bonus": {
+                            "type": "object",
+                            "propertyNames": { "$ref": "#/$defs/bonusIngredient" },
+                            "additionalProperties": { "type": "integer", "minimum": 0 }
+                        }
+                    }
+                },
+                "Tartar": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["cost", "bonus"],
+                    "properties": {
+                        "cost": { "type": "number", "minimum": 0 },
+                        "bonus": {
+                            "type": "object",
+                            "propertyNames": { "$ref": "#/$defs/bonusIngredient" },
+                            "additionalProperties": { "type": "integer", "minimum": 0 }
+                        }
+                    }
+                },
+                "Chile": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["cost", "bonus"],
+                    "properties": {
+                        "cost": { "type": "number", "minimum": 0 },
+                        "bonus": {
+                            "type": "object",
+                            "propertyNames": { "$ref": "#/$defs/bonusIngredient" },
+                            "additionalProperties": { "type": "integer", "minimum": 0 }
+                        }
+                    }
+                },
+                "Spice": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["cost", "bonus"],
+                    "properties": {
+                        "cost": { "type": "number", "minimum": 0 },
+                        "bonus": {
+                            "type": "object",
+                            "propertyNames": { "$ref": "#/$defs/bonusIngredient" },
+                            "additionalProperties": { "type": "integer", "minimum": 0 }
+                        }
+                    }
+                },
+                "Cherry": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["cost", "bonus"],
+                    "properties": {
+                        "cost": { "type": "number", "minimum": 0 },
+                        "bonus": {
+                            "type": "object",
+                            "propertyNames": { "$ref": "#/$defs/bonusIngredient" },
+                            "additionalProperties": { "type": "integer", "minimum": 0 }
+                        }
+                    }
+                },
+                "Whortleberry": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["cost", "bonus"],
+                    "properties": {
+                        "cost": { "type": "number", "minimum": 0 },
+                        "bonus": {
+                            "type": "object",
+                            "propertyNames": { "$ref": "#/$defs/bonusIngredient" },
+                            "additionalProperties": { "type": "integer", "minimum": 0 }
+                        }
+                    }
+                },
+                "Chocolate": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["cost", "bonus"],
+                    "properties": {
+                        "cost": { "type": "number", "minimum": 0 },
+                        "bonus": {
+                            "type": "object",
+                            "propertyNames": { "$ref": "#/$defs/bonusIngredient" },
+                            "additionalProperties": { "type": "integer", "minimum": 0 }
+                        }
+                    }
+                },
+                "Candy": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["cost", "bonus"],
+                    "properties": {
+                        "cost": { "type": "number", "minimum": 0 },
+                        "bonus": {
+                            "type": "object",
+                            "propertyNames": { "$ref": "#/$defs/bonusIngredient" },
+                            "additionalProperties": { "type": "integer", "minimum": 0 }
+                        }
+                    }
+                },
+                "Whip": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["cost", "bonus"],
+                    "properties": {
+                        "cost": { "type": "number", "minimum": 0 },
+                        "bonus": {
+                            "type": "object",
+                            "propertyNames": { "$ref": "#/$defs/bonusIngredient" },
+                            "additionalProperties": { "type": "integer", "minimum": 0 }
+                        }
+                    }
+                },
+                "SecretCake": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["cost", "bonus"],
+                    "properties": {
+                        "cost": { "type": "number", "minimum": 0 },
+                        "bonus": {
+                            "type": "object",
+                            "propertyNames": { "$ref": "#/$defs/bonusIngredient" },
+                            "additionalProperties": { "type": "integer", "minimum": 0 }
+                        }
+                    }
+                },
+                "Olive_oil": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["cost", "bonus"],
+                    "properties": {
+                        "cost": { "type": "number", "minimum": 0 },
+                        "bonus": {
+                            "type": "object",
+                            "propertyNames": { "$ref": "#/$defs/bonusIngredient" },
+                            "additionalProperties": { "type": "integer", "minimum": 0 }
+                        }
+                    }
+                },
+                "Cheese": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["cost", "bonus"],
+                    "properties": {
+                        "cost": { "type": "number", "minimum": 0 },
+                        "bonus": {
+                            "type": "object",
+                            "propertyNames": { "$ref": "#/$defs/bonusIngredient" },
+                            "additionalProperties": { "type": "integer", "minimum": 0 }
+                        }
+                    }
+                },
+                "KetchupLasagna": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["cost", "bonus"],
+                    "properties": {
+                        "cost": { "type": "number", "minimum": 0 },
+                        "bonus": {
+                            "type": "object",
+                            "propertyNames": { "$ref": "#/$defs/bonusIngredient" },
+                            "additionalProperties": { "type": "integer", "minimum": 0 }
+                        }
+                    }
+                },
+                "Pepper_oil": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["cost", "bonus"],
+                    "properties": {
+                        "cost": { "type": "number", "minimum": 0 },
+                        "bonus": {
+                            "type": "object",
+                            "propertyNames": { "$ref": "#/$defs/bonusIngredient" },
+                            "additionalProperties": { "type": "integer", "minimum": 0 }
+                        }
+                    }
+                },
+                "Garlic_oil": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["cost", "bonus"],
+                    "properties": {
+                        "cost": { "type": "number", "minimum": 0 },
+                        "bonus": {
+                            "type": "object",
+                            "propertyNames": { "$ref": "#/$defs/bonusIngredient" },
+                            "additionalProperties": { "type": "integer", "minimum": 0 }
+                        }
+                    }
+                },
+                "SecretLasagna": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["cost", "bonus"],
+                    "properties": {
+                        "cost": { "type": "number", "minimum": 0 },
+                        "bonus": {
+                            "type": "object",
+                            "propertyNames": { "$ref": "#/$defs/bonusIngredient" },
+                            "additionalProperties": { "type": "integer", "minimum": 0 }
+                        }
+                    }
+                }
+            }
+        },
+        "snacks": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["FrenchFries", "SoftDrinks", "Icecream", "Coffe"],
+            "properties": {
+                "FrenchFries": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["cost", "snack_cost"],
+                    "properties": {
+                        "cost": { "type": "number", "minimum": 0 },
+                        "snack_cost": { "type": "number", "minimum": 0 }
+                    }
+                },
+                "SoftDrinks": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["cost", "snack_cost"],
+                    "properties": {
+                        "cost": { "type": "number", "minimum": 0 },
+                        "snack_cost": { "type": "number", "minimum": 0 }
+                    }
+                },
+                "Icecream": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["cost", "snack_cost"],
+                    "properties": {
+                        "cost": { "type": "number", "minimum": 0 },
+                        "snack_cost": { "type": "number", "minimum": 0 }
+                    }
+                },
+                "Coffe": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["cost", "snack_cost"],
+                    "properties": {
+                        "cost": { "type": "number", "minimum": 0 },
+                        "snack_cost": { "type": "number", "minimum": 0 }
+                    }
+                }
+            }
+        },
+        "upgrades": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+                "Jukebox1",
+                "Jukebox2",
+                "Jukebox3",
+                "Conditioner1",
+                "Conditioner2",
+                "Conditioner3",
+                "Flower_01",
+                "Flower_02",
+                "Flower_03",
+                "CoffeeMachine1",
+                "CoffeeMachine2",
+                "CoffeeMachine3",
+                "Heater1",
+                "Heater2",
+                "Heater3",
+                "ContainerFrenchFries1",
+                "ContainerFrenchFries2",
+                "ContainerSoftDrinks1",
+                "ContainerSoftDrinks2",
+                "ContainerIcecream1",
+                "ContainerIcecream2",
+                "ContainerCoffe1",
+                "ContainerCoffe2",
+                "SauceKetchup",
+                "SauceChile",
+                "SauceCurry",
+                "SauceSpice",
+                "SauceTartar",
+                "SauceMayonnaise",
+                "SauceCandy",
+                "SauceCheese",
+                "SauceCherry",
+                "SauceChocolate",
+                "SauceGarlic_oil",
+                "SauceKetchupLasagna",
+                "SauceOlive_oil",
+                "SaucePepper_oil",
+                "SauceSecretCake",
+                "SauceSecretLasagna",
+                "SauceWhip",
+                "SauceWhortleberry",
+                "FrenchFries",
+                "SoftDrinks",
+                "Icecream",
+                "Coffe",
+                "PaperBoxes",
+                "Plate1",
+                "Plate2",
+                "Plate3",
+                "Plate4",
+                "Claw"
+            ],
+            "properties": {
+                "Jukebox1": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["type", "cost", "waiting_bonus"],
+                    "properties": {
+                        "type": { "$ref": "#/$defs/upgradeType" },
+                        "cost": { "type": "number", "minimum": 0 },
+                        "waiting_bonus": { "type": "integer", "minimum": 0 }
+                    }
+                },
+                "Jukebox2": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["type", "cost", "waiting_bonus"],
+                    "properties": {
+                        "type": { "$ref": "#/$defs/upgradeType" },
+                        "cost": { "type": "number", "minimum": 0 },
+                        "waiting_bonus": { "type": "integer", "minimum": 0 }
+                    }
+                },
+                "Jukebox3": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["type", "cost", "waiting_bonus"],
+                    "properties": {
+                        "type": { "$ref": "#/$defs/upgradeType" },
+                        "cost": { "type": "number", "minimum": 0 },
+                        "waiting_bonus": { "type": "integer", "minimum": 0 }
+                    }
+                },
+                "Conditioner1": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["type", "cost", "waiting_bonus"],
+                    "properties": {
+                        "type": { "$ref": "#/$defs/upgradeType" },
+                        "cost": { "type": "number", "minimum": 0 },
+                        "waiting_bonus": { "type": "integer", "minimum": 0 }
+                    }
+                },
+                "Conditioner2": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["type", "cost", "waiting_bonus"],
+                    "properties": {
+                        "type": { "$ref": "#/$defs/upgradeType" },
+                        "cost": { "type": "number", "minimum": 0 },
+                        "waiting_bonus": { "type": "integer", "minimum": 0 }
+                    }
+                },
+                "Conditioner3": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["type", "cost", "waiting_bonus"],
+                    "properties": {
+                        "type": { "$ref": "#/$defs/upgradeType" },
+                        "cost": { "type": "number", "minimum": 0 },
+                        "waiting_bonus": { "type": "integer", "minimum": 0 }
+                    }
+                },
+                "Flower_01": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["type", "cost"],
+                    "properties": { "type": { "$ref": "#/$defs/upgradeType" }, "cost": { "type": "number", "minimum": 0 } }
+                },
+                "Flower_02": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["type", "cost"],
+                    "properties": { "type": { "$ref": "#/$defs/upgradeType" }, "cost": { "type": "number", "minimum": 0 } }
+                },
+                "Flower_03": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["type", "cost"],
+                    "properties": { "type": { "$ref": "#/$defs/upgradeType" }, "cost": { "type": "number", "minimum": 0 } }
+                },
+                "CoffeeMachine1": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["type", "cost", "speed_bonus"],
+                    "properties": {
+                        "type": { "$ref": "#/$defs/upgradeType" },
+                        "cost": { "type": "number", "minimum": 0 },
+                        "speed_bonus": { "type": "integer", "minimum": 0 }
+                    }
+                },
+                "CoffeeMachine2": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["type", "cost", "speed_bonus"],
+                    "properties": {
+                        "type": { "$ref": "#/$defs/upgradeType" },
+                        "cost": { "type": "number", "minimum": 0 },
+                        "speed_bonus": { "type": "integer", "minimum": 0 }
+                    }
+                },
+                "CoffeeMachine3": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["type", "cost", "speed_bonus"],
+                    "properties": {
+                        "type": { "$ref": "#/$defs/upgradeType" },
+                        "cost": { "type": "number", "minimum": 0 },
+                        "speed_bonus": { "type": "integer", "minimum": 0 }
+                    }
+                },
+                "Heater1": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["type", "cost", "heat_bonus"],
+                    "properties": {
+                        "type": { "$ref": "#/$defs/upgradeType" },
+                        "cost": { "type": "number", "minimum": 0 },
+                        "heat_bonus": { "type": "number", "minimum": 0 }
+                    }
+                },
+                "Heater2": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["type", "cost", "heat_bonus"],
+                    "properties": {
+                        "type": { "$ref": "#/$defs/upgradeType" },
+                        "cost": { "type": "number", "minimum": 0 },
+                        "heat_bonus": { "type": "number", "minimum": 0 }
+                    }
+                },
+                "Heater3": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["type", "cost", "heat_bonus"],
+                    "properties": {
+                        "type": { "$ref": "#/$defs/upgradeType" },
+                        "cost": { "type": "number", "minimum": 0 },
+                        "heat_bonus": { "type": "number", "minimum": 0 }
+                    }
+                },
+                "ContainerFrenchFries1": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["type", "cost"],
+                    "properties": { "type": { "$ref": "#/$defs/upgradeType" }, "cost": { "type": "number", "minimum": 0 } }
+                },
+                "ContainerFrenchFries2": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["type", "cost"],
+                    "properties": { "type": { "$ref": "#/$defs/upgradeType" }, "cost": { "type": "number", "minimum": 0 } }
+                },
+                "ContainerSoftDrinks1": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["type", "cost"],
+                    "properties": { "type": { "$ref": "#/$defs/upgradeType" }, "cost": { "type": "number", "minimum": 0 } }
+                },
+                "ContainerSoftDrinks2": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["type", "cost"],
+                    "properties": { "type": { "$ref": "#/$defs/upgradeType" }, "cost": { "type": "number", "minimum": 0 } }
+                },
+                "ContainerIcecream1": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["type", "cost"],
+                    "properties": { "type": { "$ref": "#/$defs/upgradeType" }, "cost": { "type": "number", "minimum": 0 } }
+                },
+                "ContainerIcecream2": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["type", "cost"],
+                    "properties": { "type": { "$ref": "#/$defs/upgradeType" }, "cost": { "type": "number", "minimum": 0 } }
+                },
+                "ContainerCoffe1": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["type", "cost"],
+                    "properties": { "type": { "$ref": "#/$defs/upgradeType" }, "cost": { "type": "number", "minimum": 0 } }
+                },
+                "ContainerCoffe2": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["type", "cost"],
+                    "properties": { "type": { "$ref": "#/$defs/upgradeType" }, "cost": { "type": "number", "minimum": 0 } }
+                },
+                "SauceKetchup": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["type", "cost"],
+                    "properties": { "type": { "$ref": "#/$defs/upgradeType" }, "cost": { "type": "number", "minimum": 0 } }
+                },
+                "SauceChile": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["type", "cost"],
+                    "properties": { "type": { "$ref": "#/$defs/upgradeType" }, "cost": { "type": "number", "minimum": 0 } }
+                },
+                "SauceCurry": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["type", "cost"],
+                    "properties": { "type": { "$ref": "#/$defs/upgradeType" }, "cost": { "type": "number", "minimum": 0 } }
+                },
+                "SauceSpice": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["type", "cost"],
+                    "properties": { "type": { "$ref": "#/$defs/upgradeType" }, "cost": { "type": "number", "minimum": 0 } }
+                },
+                "SauceTartar": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["type", "cost"],
+                    "properties": { "type": { "$ref": "#/$defs/upgradeType" }, "cost": { "type": "number", "minimum": 0 } }
+                },
+                "SauceMayonnaise": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["type", "cost"],
+                    "properties": { "type": { "$ref": "#/$defs/upgradeType" }, "cost": { "type": "number", "minimum": 0 } }
+                },
+                "SauceCandy": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["type", "cost"],
+                    "properties": { "type": { "$ref": "#/$defs/upgradeType" }, "cost": { "type": "number", "minimum": 0 } }
+                },
+                "SauceCheese": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["type", "cost"],
+                    "properties": { "type": { "$ref": "#/$defs/upgradeType" }, "cost": { "type": "number", "minimum": 0 } }
+                },
+                "SauceCherry": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["type", "cost"],
+                    "properties": { "type": { "$ref": "#/$defs/upgradeType" }, "cost": { "type": "number", "minimum": 0 } }
+                },
+                "SauceChocolate": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["type", "cost"],
+                    "properties": { "type": { "$ref": "#/$defs/upgradeType" }, "cost": { "type": "number", "minimum": 0 } }
+                },
+                "SauceGarlic_oil": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["type", "cost"],
+                    "properties": { "type": { "$ref": "#/$defs/upgradeType" }, "cost": { "type": "number", "minimum": 0 } }
+                },
+                "SauceKetchupLasagna": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["type", "cost"],
+                    "properties": { "type": { "$ref": "#/$defs/upgradeType" }, "cost": { "type": "number", "minimum": 0 } }
+                },
+                "SauceOlive_oil": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["type", "cost"],
+                    "properties": { "type": { "$ref": "#/$defs/upgradeType" }, "cost": { "type": "number", "minimum": 0 } }
+                },
+                "SaucePepper_oil": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["type", "cost"],
+                    "properties": { "type": { "$ref": "#/$defs/upgradeType" }, "cost": { "type": "number", "minimum": 0 } }
+                },
+                "SauceSecretCake": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["type", "cost"],
+                    "properties": { "type": { "$ref": "#/$defs/upgradeType" }, "cost": { "type": "number", "minimum": 0 } }
+                },
+                "SauceSecretLasagna": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["type", "cost"],
+                    "properties": { "type": { "$ref": "#/$defs/upgradeType" }, "cost": { "type": "number", "minimum": 0 } }
+                },
+                "SauceWhip": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["type", "cost"],
+                    "properties": { "type": { "$ref": "#/$defs/upgradeType" }, "cost": { "type": "number", "minimum": 0 } }
+                },
+                "SauceWhortleberry": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["type", "cost"],
+                    "properties": { "type": { "$ref": "#/$defs/upgradeType" }, "cost": { "type": "number", "minimum": 0 } }
+                },
+                "FrenchFries": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["type", "cost"],
+                    "properties": { "type": { "$ref": "#/$defs/upgradeType" }, "cost": { "type": "number", "minimum": 0 } }
+                },
+                "SoftDrinks": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["type", "cost"],
+                    "properties": { "type": { "$ref": "#/$defs/upgradeType" }, "cost": { "type": "number", "minimum": 0 } }
+                },
+                "Icecream": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["type", "cost"],
+                    "properties": { "type": { "$ref": "#/$defs/upgradeType" }, "cost": { "type": "number", "minimum": 0 } }
+                },
+                "Coffe": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["type", "cost"],
+                    "properties": { "type": { "$ref": "#/$defs/upgradeType" }, "cost": { "type": "number", "minimum": 0 } }
+                },
+                "PaperBoxes": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["type", "cost"],
+                    "properties": { "type": { "$ref": "#/$defs/upgradeType" }, "cost": { "type": "number", "minimum": 0 } }
+                },
+                "Plate1": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["type", "cost"],
+                    "properties": { "type": { "$ref": "#/$defs/upgradeType" }, "cost": { "type": "number", "minimum": 0 } }
+                },
+                "Plate2": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["type", "cost"],
+                    "properties": { "type": { "$ref": "#/$defs/upgradeType" }, "cost": { "type": "number", "minimum": 0 } }
+                },
+                "Plate3": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["type", "cost"],
+                    "properties": { "type": { "$ref": "#/$defs/upgradeType" }, "cost": { "type": "number", "minimum": 0 } }
+                },
+                "Plate4": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["type", "cost"],
+                    "properties": { "type": { "$ref": "#/$defs/upgradeType" }, "cost": { "type": "number", "minimum": 0 } }
+                },
+                "Claw": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["type", "cost"],
+                    "properties": { "type": { "$ref": "#/$defs/upgradeType" }, "cost": { "type": "number", "minimum": 0 } }
+                }
+            }
+        },
+        "recipes": {
+            "type": "object",
+            "description": "existing recipes can't be removed (game scripts refer to them); new ones can be added",
+            "propertyNames": { "$ref": "#/$defs/recipeName" },
+            "additionalProperties": { "$ref": "#/$defs/recipe" }
+        },
+        "difficulties": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                    "waiting_time_coef",
+                    "snack_waiting_time_coef",
+                    "conditioner_waiting_time_coef",
+                    "jukebox_bonus_time_coef",
+                    "unavailable_achievements"
+                ],
+                "properties": {
+                    "waiting_time_coef": { "type": "number", "minimum": 0 },
+                    "snack_waiting_time_coef": { "type": "number", "minimum": 0 },
+                    "conditioner_waiting_time_coef": { "type": "number", "minimum": 0 },
+                    "jukebox_bonus_time_coef": { "type": "number", "minimum": 0 },
+                    "unavailable_achievements": { "type": "array", "items": { "type": "string", "minLength": 1 }, "uniqueItems": true }
+                }
+            },
+            "minItems": 3,
+            "maxItems": 3,
+            "description": "easy, normal, hard"
+        },
+        "level_bases": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+                "Level",
+                "LevelRecipesDay",
+                "LevelNorecipes",
+                "LevelTapper",
+                "LevelBrokenConveyors",
+                "LevelCatchIngredients",
+                "Level_Tutorial",
+                "Level_ClawTutorial"
+            ],
+            "properties": {
+                "Level": { "$ref": "#/$defs/level", "required": ["base"] },
+                "LevelRecipesDay": { "$ref": "#/$defs/level", "required": ["base"] },
+                "LevelNorecipes": { "$ref": "#/$defs/level", "required": ["base"] },
+                "LevelTapper": { "$ref": "#/$defs/level", "required": ["base"] },
+                "LevelBrokenConveyors": { "$ref": "#/$defs/level", "required": ["base"] },
+                "LevelCatchIngredients": { "$ref": "#/$defs/level", "required": ["base"] },
+                "Level_Tutorial": { "$ref": "#/$defs/level", "required": ["base"] },
+                "Level_ClawTutorial": { "$ref": "#/$defs/level", "required": ["base"] }
+            }
+        },
+        "cafes": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+                "Cafe_01",
+                "Cafe_02",
+                "Cafe_03",
+                "Cafe_04",
+                "Cafe_05",
+                "Cafe_06",
+                "Cafe_07",
+                "Cafe_08",
+                "Cafe_09",
+                "Cafe_10",
+                "Cafe_11",
+                "Cafe_12",
+                "Cafe_13",
+                "Cafe_14",
+                "Cafe_15",
+                "Cafe_16",
+                "Cafe_17",
+                "Cafe_18",
+                "Cafe_19",
+                "Cafe_20",
+                "Cafe_21",
+                "Cafe_22",
+                "Cafe_23",
+                "Cafe_24",
+                "Cafe_25"
+            ],
+            "properties": {
+                "Cafe_01": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["levels"],
+                    "properties": {
+                        "levels": {
+                            "type": "array",
+                            "items": { "$ref": "#/$defs/level", "required": ["id", "base", "type"] },
+                            "minItems": 1,
+                            "description": "level ids and order are read-only"
+                        }
+                    }
+                },
+                "Cafe_02": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["levels"],
+                    "properties": {
+                        "levels": {
+                            "type": "array",
+                            "items": { "$ref": "#/$defs/level", "required": ["id", "base", "type"] },
+                            "minItems": 1,
+                            "description": "level ids and order are read-only"
+                        }
+                    }
+                },
+                "Cafe_03": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["levels"],
+                    "properties": {
+                        "levels": {
+                            "type": "array",
+                            "items": { "$ref": "#/$defs/level", "required": ["id", "base", "type"] },
+                            "minItems": 1,
+                            "description": "level ids and order are read-only"
+                        }
+                    }
+                },
+                "Cafe_04": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["levels"],
+                    "properties": {
+                        "levels": {
+                            "type": "array",
+                            "items": { "$ref": "#/$defs/level", "required": ["id", "base", "type"] },
+                            "minItems": 1,
+                            "description": "level ids and order are read-only"
+                        }
+                    }
+                },
+                "Cafe_05": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["levels"],
+                    "properties": {
+                        "levels": {
+                            "type": "array",
+                            "items": { "$ref": "#/$defs/level", "required": ["id", "base", "type"] },
+                            "minItems": 1,
+                            "description": "level ids and order are read-only"
+                        }
+                    }
+                },
+                "Cafe_06": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["levels"],
+                    "properties": {
+                        "levels": {
+                            "type": "array",
+                            "items": { "$ref": "#/$defs/level", "required": ["id", "base", "type"] },
+                            "minItems": 1,
+                            "description": "level ids and order are read-only"
+                        }
+                    }
+                },
+                "Cafe_07": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["levels"],
+                    "properties": {
+                        "levels": {
+                            "type": "array",
+                            "items": { "$ref": "#/$defs/level", "required": ["id", "base", "type"] },
+                            "minItems": 1,
+                            "description": "level ids and order are read-only"
+                        }
+                    }
+                },
+                "Cafe_08": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["levels"],
+                    "properties": {
+                        "levels": {
+                            "type": "array",
+                            "items": { "$ref": "#/$defs/level", "required": ["id", "base", "type"] },
+                            "minItems": 1,
+                            "description": "level ids and order are read-only"
+                        }
+                    }
+                },
+                "Cafe_09": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["levels"],
+                    "properties": {
+                        "levels": {
+                            "type": "array",
+                            "items": { "$ref": "#/$defs/level", "required": ["id", "base", "type"] },
+                            "minItems": 1,
+                            "description": "level ids and order are read-only"
+                        }
+                    }
+                },
+                "Cafe_10": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["levels"],
+                    "properties": {
+                        "levels": {
+                            "type": "array",
+                            "items": { "$ref": "#/$defs/level", "required": ["id", "base", "type"] },
+                            "minItems": 1,
+                            "description": "level ids and order are read-only"
+                        }
+                    }
+                },
+                "Cafe_11": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["levels"],
+                    "properties": {
+                        "levels": {
+                            "type": "array",
+                            "items": { "$ref": "#/$defs/level", "required": ["id", "base", "type"] },
+                            "minItems": 1,
+                            "description": "level ids and order are read-only"
+                        }
+                    }
+                },
+                "Cafe_12": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["levels"],
+                    "properties": {
+                        "levels": {
+                            "type": "array",
+                            "items": { "$ref": "#/$defs/level", "required": ["id", "base", "type"] },
+                            "minItems": 1,
+                            "description": "level ids and order are read-only"
+                        }
+                    }
+                },
+                "Cafe_13": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["levels"],
+                    "properties": {
+                        "levels": {
+                            "type": "array",
+                            "items": { "$ref": "#/$defs/level", "required": ["id", "base", "type"] },
+                            "minItems": 1,
+                            "description": "level ids and order are read-only"
+                        }
+                    }
+                },
+                "Cafe_14": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["levels"],
+                    "properties": {
+                        "levels": {
+                            "type": "array",
+                            "items": { "$ref": "#/$defs/level", "required": ["id", "base", "type"] },
+                            "minItems": 1,
+                            "description": "level ids and order are read-only"
+                        }
+                    }
+                },
+                "Cafe_15": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["levels"],
+                    "properties": {
+                        "levels": {
+                            "type": "array",
+                            "items": { "$ref": "#/$defs/level", "required": ["id", "base", "type"] },
+                            "minItems": 1,
+                            "description": "level ids and order are read-only"
+                        }
+                    }
+                },
+                "Cafe_16": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["levels"],
+                    "properties": {
+                        "levels": {
+                            "type": "array",
+                            "items": { "$ref": "#/$defs/level", "required": ["id", "base", "type"] },
+                            "minItems": 1,
+                            "description": "level ids and order are read-only"
+                        }
+                    }
+                },
+                "Cafe_17": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["levels"],
+                    "properties": {
+                        "levels": {
+                            "type": "array",
+                            "items": { "$ref": "#/$defs/level", "required": ["id", "base", "type"] },
+                            "minItems": 1,
+                            "description": "level ids and order are read-only"
+                        }
+                    }
+                },
+                "Cafe_18": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["levels"],
+                    "properties": {
+                        "levels": {
+                            "type": "array",
+                            "items": { "$ref": "#/$defs/level", "required": ["id", "base", "type"] },
+                            "minItems": 1,
+                            "description": "level ids and order are read-only"
+                        }
+                    }
+                },
+                "Cafe_19": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["levels"],
+                    "properties": {
+                        "levels": {
+                            "type": "array",
+                            "items": { "$ref": "#/$defs/level", "required": ["id", "base", "type"] },
+                            "minItems": 1,
+                            "description": "level ids and order are read-only"
+                        }
+                    }
+                },
+                "Cafe_20": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["levels"],
+                    "properties": {
+                        "levels": {
+                            "type": "array",
+                            "items": { "$ref": "#/$defs/level", "required": ["id", "base", "type"] },
+                            "minItems": 1,
+                            "description": "level ids and order are read-only"
+                        }
+                    }
+                },
+                "Cafe_21": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["levels"],
+                    "properties": {
+                        "levels": {
+                            "type": "array",
+                            "items": { "$ref": "#/$defs/level", "required": ["id", "base", "type"] },
+                            "minItems": 1,
+                            "description": "level ids and order are read-only"
+                        }
+                    }
+                },
+                "Cafe_22": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["levels"],
+                    "properties": {
+                        "levels": {
+                            "type": "array",
+                            "items": { "$ref": "#/$defs/level", "required": ["id", "base", "type"] },
+                            "minItems": 1,
+                            "description": "level ids and order are read-only"
+                        }
+                    }
+                },
+                "Cafe_23": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["levels"],
+                    "properties": {
+                        "levels": {
+                            "type": "array",
+                            "items": { "$ref": "#/$defs/level", "required": ["id", "base", "type"] },
+                            "minItems": 1,
+                            "description": "level ids and order are read-only"
+                        }
+                    }
+                },
+                "Cafe_24": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["levels"],
+                    "properties": {
+                        "levels": {
+                            "type": "array",
+                            "items": { "$ref": "#/$defs/level", "required": ["id", "base", "type"] },
+                            "minItems": 1,
+                            "description": "level ids and order are read-only"
+                        }
+                    }
+                },
+                "Cafe_25": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["levels"],
+                    "properties": {
+                        "levels": {
+                            "type": "array",
+                            "items": { "$ref": "#/$defs/level", "required": ["id", "base", "type"] },
+                            "minItems": 1,
+                            "description": "level ids and order are read-only"
+                        }
+                    }
+                }
+            }
+        },
+        "consts": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+                "snack_waiting_time_bonuses_factor",
+                "container_capacity_up1",
+                "container_capacity_up2",
+                "container_capacity_up3",
+                "secret_sauce_capacity",
+                "sauce_capacity",
+                "sauce_increase",
+                "plate1_cost",
+                "zefir_cost"
+            ],
+            "properties": {
+                "snack_waiting_time_bonuses_factor": { "type": "number", "minimum": 0 },
+                "container_capacity_up1": { "type": "integer", "minimum": 0 },
+                "container_capacity_up2": { "type": "integer", "minimum": 0 },
+                "container_capacity_up3": { "type": "integer", "minimum": 0 },
+                "secret_sauce_capacity": { "type": "integer", "minimum": 0 },
+                "sauce_capacity": { "type": "integer", "minimum": 0 },
+                "sauce_increase": { "type": "integer", "minimum": 0 },
+                "plate1_cost": { "type": "integer", "minimum": 0 },
+                "zefir_cost": { "type": "number", "minimum": 0 }
+            }
+        }
+    },
+    "$defs": {
+        "ingredient": {
+            "enum": [
+                "Bacon",
+                "Beef",
+                "Bilberry",
+                "BreadBottom",
+                "BreadTop",
+                "Cheese",
+                "Cherry",
+                "Chicken",
+                "Chocolate",
+                "Egg",
+                "FishCake",
+                "Jelly",
+                "Kivi",
+                "LasagnaBacon",
+                "LasagnaBeef",
+                "LasagnaFish",
+                "LasagnaMozarella",
+                "LasagnaMushrooms",
+                "LasagnaNoodle",
+                "LasagnaOnion",
+                "LasagnaSpinach",
+                "LasagnaTomatoes",
+                "Lettuce",
+                "Onion",
+                "Oranges",
+                "Pickles",
+                "Plate",
+                "Rose",
+                "Strawberry",
+                "Tomato",
+                "Waffle"
+            ]
+        },
+        "bonusIngredient": {
+            "enum": [
+                "Bacon",
+                "Beef",
+                "Bilberry",
+                "BreadBottom",
+                "BreadTop",
+                "Cheese",
+                "Cherry",
+                "Chicken",
+                "Chocolate",
+                "Egg",
+                "FishCake",
+                "Jelly",
+                "Kivi",
+                "LasagnaBacon",
+                "LasagnaBeef",
+                "LasagnaFish",
+                "LasagnaMozarella",
+                "LasagnaMushrooms",
+                "LasagnaNoodle",
+                "LasagnaOnion",
+                "LasagnaSpinach",
+                "LasagnaTomatoes",
+                "Lettuce",
+                "Onion",
+                "Oranges",
+                "Pickles",
+                "Plate",
+                "Rose",
+                "Strawberry",
+                "Tomato",
+                "Waffle",
+                "Zefir"
+            ],
+            "description": "Zefir has a sauce bonus but no ingredient object"
+        },
+        "burgerIngredient": {
+            "enum": [
+                "BreadBottom",
+                "BreadTop",
+                "Beef",
+                "Bacon",
+                "Chicken",
+                "FishCake",
+                "Pickles",
+                "Tomato",
+                "Lettuce",
+                "Cheese",
+                "Onion",
+                "Egg"
+            ]
+        },
+        "lasagnaIngredient": {
+            "enum": [
+                "LasagnaBacon",
+                "LasagnaBeef",
+                "LasagnaFish",
+                "LasagnaMozarella",
+                "LasagnaMushrooms",
+                "LasagnaNoodle",
+                "LasagnaOnion",
+                "LasagnaSpinach",
+                "LasagnaTomatoes"
+            ]
+        },
+        "cakeIngredient": {
+            "enum": ["Chocolate", "Bilberry", "Rose", "Jelly", "Strawberry", "Cherry", "Kivi", "Oranges", "Waffle"]
+        },
+        "tapperBurgerIngredient": {
+            "enum": [
+                "Plate",
+                "BreadBottom",
+                "BreadTop",
+                "Beef",
+                "Bacon",
+                "Chicken",
+                "FishCake",
+                "Pickles",
+                "Tomato",
+                "Lettuce",
+                "Cheese",
+                "Onion",
+                "Egg"
+            ]
+        },
+        "tapperLasagnaIngredient": {
+            "enum": [
+                "Plate",
+                "LasagnaBacon",
+                "LasagnaBeef",
+                "LasagnaFish",
+                "LasagnaMozarella",
+                "LasagnaMushrooms",
+                "LasagnaNoodle",
+                "LasagnaOnion",
+                "LasagnaSpinach",
+                "LasagnaTomatoes"
+            ]
+        },
+        "conveyorIngredients": {
+            "type": "array",
+            "items": { "type": "array", "items": { "$ref": "#/$defs/ingredient" } },
+            "minItems": 1
+        },
+        "customer": {
+            "enum": [
+                "Deliveryboy",
+                "FastDeliveryboy",
+                "FastGeek",
+                "FastMom",
+                "FastOldwoman",
+                "FastTeenager",
+                "FastYappie",
+                "FastYounggirl",
+                "Geek",
+                "Mom",
+                "Nikki",
+                "Oldwoman",
+                "Security",
+                "Teenager",
+                "Yappie",
+                "Younggirl"
+            ]
+        },
+        "recipeCustomer": {
+            "enum": [
+                "Younggirl",
+                "Mom",
+                "Geek",
+                "Yappie",
+                "Oldwoman",
+                "Deliveryboy",
+                "Teenager",
+                "Nikki",
+                "Security"
+            ]
+        },
+        "customerInfo": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+                "name",
+                "speed",
+                "waiting_time",
+                "gratuity_percent",
+                "gratuity_time_percent",
+                "angry_time_percent",
+                "snack_waiting_time_precent",
+                "preferred_snacks"
+            ],
+            "properties": {
+                "name": { "type": "string", "description": "from res/Strings.nut, read-only" },
+                "speed": { "type": "integer", "minimum": 1 },
+                "waiting_time": { "type": "integer", "minimum": 0 },
+                "gratuity_percent": { "type": "number", "minimum": 0, "maximum": 1 },
+                "gratuity_time_percent": { "type": "number", "minimum": 0, "maximum": 1 },
+                "angry_time_percent": { "type": "number", "minimum": 0, "maximum": 1 },
+                "snack_waiting_time_precent": { "type": "number", "minimum": 0, "maximum": 1 },
+                "preferred_snacks": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["Burger", "Cake", "Lasagna"],
+                    "properties": {
+                        "Burger": { "$ref": "#/$defs/snack" },
+                        "Cake": { "$ref": "#/$defs/snack" },
+                        "Lasagna": { "$ref": "#/$defs/snack" }
+                    },
+                    "propertyNames": { "$ref": "#/$defs/levelType" }
+                }
+            }
+        },
+        "snack": { "enum": ["", "FrenchFries", "SoftDrinks", "Icecream", "Coffe"] },
+        "sauce": {
+            "enum": [
+                "Ketchup",
+                "Curry",
+                "Mayonnaise",
+                "Tartar",
+                "Chile",
+                "Spice",
+                "Cherry",
+                "Whortleberry",
+                "Chocolate",
+                "Candy",
+                "Whip",
+                "SecretCake",
+                "Olive_oil",
+                "Cheese",
+                "KetchupLasagna",
+                "Pepper_oil",
+                "Garlic_oil",
+                "SecretLasagna"
+            ]
+        },
+        "levelType": { "enum": ["Burger", "Lasagna", "Cake"] },
+        "recipeType": { "enum": ["Burger", "Lasagna", "Cake", "TapperBurger", "TapperLasagna"] },
+        "upgradeType": { "enum": ["Normal", "Consumable", "Decorative"] },
+        "recipeName": { "type": "string", "pattern": "^[A-Za-z_][A-Za-z0-9_]*$" },
+        "bonusRecipe": { "$ref": "#/$defs/recipeName" },
+        "recipe": {
+            "oneOf": [
+                {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["type", "ingredients", "customers"],
+                    "properties": {
+                        "type": { "$ref": "#/$defs/recipeType", "const": "Burger" },
+                        "ingredients": {
+                            "type": "array",
+                            "items": { "$ref": "#/$defs/burgerIngredient" },
+                            "minItems": 1,
+                            "maxItems": 10
+                        },
+                        "customers": {
+                            "type": "array",
+                            "items": { "$ref": "#/$defs/recipeCustomer" },
+                            "minItems": 1,
+                            "uniqueItems": true
+                        }
+                    }
+                },
+                {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["type", "ingredients", "customers"],
+                    "properties": {
+                        "type": { "$ref": "#/$defs/recipeType", "const": "Lasagna" },
+                        "ingredients": {
+                            "type": "array",
+                            "items": { "$ref": "#/$defs/lasagnaIngredient" },
+                            "minItems": 1,
+                            "maxItems": 10
+                        },
+                        "customers": {
+                            "type": "array",
+                            "items": { "$ref": "#/$defs/recipeCustomer" },
+                            "minItems": 1,
+                            "uniqueItems": true
+                        }
+                    }
+                },
+                {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["type", "ingredients", "customers"],
+                    "properties": {
+                        "type": { "$ref": "#/$defs/recipeType", "const": "Cake" },
+                        "ingredients": {
+                            "type": "array",
+                            "items": { "$ref": "#/$defs/cakeIngredient" },
+                            "minItems": 1,
+                            "maxItems": 10
+                        },
+                        "customers": {
+                            "type": "array",
+                            "items": { "$ref": "#/$defs/recipeCustomer" },
+                            "minItems": 1,
+                            "uniqueItems": true
+                        }
+                    }
+                },
+                {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["type", "ingredients", "customers"],
+                    "properties": {
+                        "type": { "$ref": "#/$defs/recipeType", "const": "TapperBurger" },
+                        "ingredients": {
+                            "type": "array",
+                            "items": { "$ref": "#/$defs/tapperBurgerIngredient" },
+                            "minItems": 1,
+                            "maxItems": 10
+                        },
+                        "customers": {
+                            "type": "array",
+                            "items": { "$ref": "#/$defs/recipeCustomer" },
+                            "minItems": 1,
+                            "uniqueItems": true
+                        }
+                    }
+                },
+                {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["type", "ingredients", "customers"],
+                    "properties": {
+                        "type": { "$ref": "#/$defs/recipeType", "const": "TapperLasagna" },
+                        "ingredients": {
+                            "type": "array",
+                            "items": { "$ref": "#/$defs/tapperLasagnaIngredient" },
+                            "minItems": 1,
+                            "maxItems": 10
+                        },
+                        "customers": {
+                            "type": "array",
+                            "items": { "$ref": "#/$defs/recipeCustomer" },
+                            "minItems": 1,
+                            "uniqueItems": true
+                        }
+                    }
+                }
+            ]
+        },
+        "levelId": {
+            "enum": [
+                "Level_01_01",
+                "Level_01_02",
+                "Level_01_03",
+                "Level_01_04",
+                "Level_02_01",
+                "Level_02_02",
+                "Level_02_03",
+                "Level_Tapper_Burger_02",
+                "Level_03_01",
+                "Level_03_02",
+                "Level_03_03",
+                "Level_04_01",
+                "Level_04_02",
+                "Level_04_03",
+                "Level_Norecipes_Cake_04",
+                "Level_05_01",
+                "Level_05_02",
+                "Level_05_03",
+                "Level_06_01",
+                "Level_06_02",
+                "Level_06_03",
+                "Level_Tapper_Lasagna_06",
+                "Level_07_01",
+                "Level_07_02",
+                "Level_07_03",
+                "Level_08_01",
+                "Level_08_02",
+                "Level_08_03",
+                "Level_BrokenConveyors_Burger_08",
+                "Level_09_01",
+                "Level_09_02",
+                "Level_09_03",
+                "Level_10_01",
+                "Level_10_02",
+                "Level_10_03",
+                "Level_Norecipes_Cake_10",
+                "Level_11_01",
+                "Level_11_02",
+                "Level_11_03",
+                "Level_12_01",
+                "Level_12_02",
+                "Level_12_03",
+                "Level_CatchIngredients_Lasagna12",
+                "Level_13_01",
+                "Level_13_02",
+                "Level_13_03",
+                "Level_14_01",
+                "Level_14_02",
+                "Level_14_03",
+                "Level_Tapper_Burger_14",
+                "Level_15_01",
+                "Level_15_02",
+                "Level_15_03",
+                "Level_16_01",
+                "Level_16_02",
+                "Level_16_03",
+                "Level_CatchIngredients_Cake16",
+                "Level_17_01",
+                "Level_17_02",
+                "Level_17_03",
+                "Level_18_01",
+                "Level_18_02",
+                "Level_18_03",
+                "Level_BrokenConveyors_Lasagna_18",
+                "Level_19_01",
+                "Level_19_02",
+                "Level_19_03",
+                "Level_20_01",
+                "Level_20_02",
+                "Level_20_03",
+                "Level_Norecipes_Burger20",
+                "Level_21_01",
+                "Level_21_02",
+                "Level_21_03",
+                "Level_22_01",
+                "Level_22_02",
+                "Level_22_03",
+                "Level_CatchIngredients_Cake22",
+                "Level_23_01",
+                "Level_23_02",
+                "Level_23_03",
+                "Level_24_01",
+                "Level_24_02",
+                "Level_24_03",
+                "Level_Tapper_Lasagna_24",
+                "Level_25_01",
+                "Level_25_02",
+                "Level_25_03"
+            ]
+        },
+        "layout": {
+            "enum": [
+                "Level_01_01",
+                "Level_01_01_01",
+                "Level_01_01_02",
+                "Level_01_02",
+                "Level_01_03",
+                "Level_02_01",
+                "Level_02_02",
+                "Level_02_03",
+                "Level_03_01",
+                "Level_03_02",
+                "Level_03_03",
+                "Level_04_01",
+                "Level_04_02",
+                "Level_05_01",
+                "Level_05_02",
+                "Level_06_01",
+                "Level_06_02",
+                "Level_07_01",
+                "Level_07_02",
+                "Level_08_01",
+                "Level_08_01_M",
+                "Level_08_02",
+                "Level_08_02_M",
+                "Level_08_03_M",
+                "Level_09_01",
+                "Level_09_02",
+                "Level_09_03",
+                "Level_10_01",
+                "Level_10_02",
+                "Level_10_03",
+                "Level_11_01",
+                "Level_11_02",
+                "Level_11_03",
+                "Level_12_01",
+                "Level_12_02",
+                "Level_12_03",
+                "Level_BrokenConveyors_Burger08",
+                "Level_BrokenConveyors_Lasagna18",
+                "Level_CatchIngredients_Cake16",
+                "Level_CatchIngredients_Cake22",
+                "Level_CatchIngredients_Lasagna12",
+                "Level_Norecipes_Burger20",
+                "Level_Norecipes_Cake_04",
+                "Level_Norecipes_Cake_10",
+                "Level_Tapper_Burger02",
+                "Level_Tapper_Burger14",
+                "Level_Tapper_Lasagna06",
+                "Level_Tapper_Lasagna24",
+                "Level_Tutorial",
+                "Map"
+            ],
+            "description": "a res/*.lvl scene file"
+        },
+        "levelObject": { "enum": ["Plate4", "TrashBin", "BoxClaw", "PaperBoxes"] },
+        "level": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "id": { "$ref": "#/$defs/levelId", "description": "read-only" },
+                "base": { "type": "string", "description": "class this level extends, read-only" },
+                "layout": { "$ref": "#/$defs/layout" },
+                "type": { "$ref": "#/$defs/levelType" },
+                "next": {
+                    "type": "array",
+                    "items": { "$ref": "#/$defs/levelId" },
+                    "minItems": 1,
+                    "uniqueItems": true,
+                    "description": "levels unlocked after this one (scripts/levels/LevelList.nut)"
+                },
+                "customers_time_interval": { "type": "integer", "minimum": 1 },
+                "customers_interval_increase": { "type": "number", "minimum": 0 },
+                "customers_in_queue_max": { "type": "integer", "minimum": 1 },
+                "customers_in_queue_min": { "type": "integer", "minimum": 0 },
+                "customer_take_sandwich_time": { "type": "integer", "minimum": 0 },
+                "time_generate_add": { "type": "integer", "minimum": 0 },
+                "length_to_break_route": { "type": "integer", "minimum": 0 },
+                "recipes_params": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "additionalProperties": false,
+                        "required": ["recipe", "count"],
+                        "properties": {
+                            "recipe": { "$ref": "#/$defs/recipeName" },
+                            "count": { "type": "integer", "minimum": 1 }
+                        }
+                    }
+                },
+                "bonus_recipes_params": { "type": "array", "items": { "$ref": "#/$defs/bonusRecipe" } },
+                "bonus_count_factor": { "type": "number", "minimum": 0 },
+                "recipes": { "type": "array", "items": { "$ref": "#/$defs/recipeName" } },
+                "customers_params": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "additionalProperties": false,
+                        "required": ["class", "count"],
+                        "properties": {
+                            "class": { "$ref": "#/$defs/customer" },
+                            "count": { "type": "integer", "minimum": 1 }
+                        }
+                    }
+                },
+                "bonus_customers_params": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "additionalProperties": false,
+                        "required": ["class", "count"],
+                        "properties": {
+                            "class": { "$ref": "#/$defs/customer" },
+                            "count": { "type": "integer", "minimum": 1 }
+                        }
+                    }
+                },
+                "ingredients": { "type": "array", "items": { "$ref": "#/$defs/ingredient" }, "uniqueItems": true },
+                "ingredients_count": { "type": "integer", "minimum": 0 },
+                "order_cost_factor": { "type": "number", "minimum": 0 },
+                "penalty_cost": { "type": "number", "minimum": 0 },
+                "trash_bin_usage_cost_factor": { "type": "number", "minimum": 0 },
+                "min_score_increase": { "type": "number" },
+                "min_score_value": { "type": "integer", "minimum": 0 },
+                "min_progress_to_unlock_shop": { "type": "integer", "minimum": 0 },
+                "claw_count": { "type": "integer", "minimum": 0 },
+                "max_player_sandwich_length": { "type": "integer", "minimum": 1, "maximum": 10 },
+                "max_fails_count": { "type": "integer", "minimum": 1 },
+                "plates_percent": { "type": "integer", "minimum": 0, "maximum": 100 },
+                "increase_time": { "type": "integer", "minimum": 1 },
+                "increase_steps": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "additionalProperties": false,
+                        "required": ["period_inc", "speed_inc"],
+                        "properties": { "period_inc": { "type": "integer" }, "speed_inc": { "type": "integer" } }
+                    },
+                    "minItems": 1
+                },
+                "table_upgrade_level": { "type": "integer", "minimum": 0, "maximum": 3 },
+                "ranks": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "additionalProperties": false,
+                        "required": ["text"],
+                        "properties": {
+                            "customers_lost_over": { "type": "integer", "minimum": 0 },
+                            "ingredients_lost_over": { "type": "integer", "minimum": 0 },
+                            "fails_over": { "type": "integer", "minimum": 0 },
+                            "expenditures_over_factor": { "type": "number", "minimum": 0 },
+                            "customers_to_consumes_over_factor": { "type": "number", "minimum": 0, "maximum": 1 },
+                            "text": { "type": "string", "description": "from res/Strings.nut, read-only" }
+                        }
+                    },
+                    "minItems": 5,
+                    "maxItems": 5
+                },
+                "difficulty_level_to_unreachable_objects": {
+                    "type": "array",
+                    "items": { "type": "array", "items": { "$ref": "#/$defs/levelObject" }, "uniqueItems": true },
+                    "minItems": 3,
+                    "maxItems": 3
+                },
+                "sauces": { "type": "array", "items": { "$ref": "#/$defs/sauce" }, "uniqueItems": true },
+                "snacks": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "additionalProperties": false,
+                        "required": ["name", "quantity"],
+                        "properties": {
+                            "name": { "type": "string", "minLength": 1 },
+                            "quantity": { "type": "integer", "minimum": 0 }
+                        }
+                    }
+                },
+                "objects_params": {
+                    "type": "object",
+                    "propertyNames": { "pattern": "^[A-Za-z_][A-Za-z0-9_]*$" },
+                    "additionalProperties": {
+                        "type": "object",
+                        "additionalProperties": false,
+                        "properties": {
+                            "recipe": { "$ref": "#/$defs/recipeName" },
+                            "max_customers": { "type": "integer", "minimum": 1 },
+                            "customers_step_period": { "type": "integer", "minimum": 1 },
+                            "ingredients_speed": { "type": "integer", "minimum": 1 },
+                            "ingredients_period": { "type": "integer", "minimum": 1 },
+                            "start_time": { "type": "integer", "minimum": 0 }
+                        }
+                    }
+                },
+                "is_customers_with_tray": { "type": "boolean" },
+                "is_customers_waiting": { "type": "boolean" },
+                "is_customers_clickable": { "type": "boolean" },
+                "is_combo_allowed": { "type": "boolean" },
+                "is_sauces_available": { "type": "boolean" },
+                "is_snacks_available": { "type": "boolean" },
+                "is_bonus_level": { "type": "boolean" },
+                "is_paper_boxes_unlimited": { "type": "boolean" },
+                "can_player_return_ingredients": { "type": "boolean" },
+                "is_allow_claw_button": { "type": "boolean" },
+                "is_allow_skip_tutorial_button": { "type": "boolean" },
+                "tutorial_customers": {
+                    "oneOf": [
+                        { "type": "null" },
+                        {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "additionalProperties": false,
+                                "required": ["customer", "recipe"],
+                                "properties": {
+                                    "customer": { "$ref": "#/$defs/customer" },
+                                    "recipe": { "$ref": "#/$defs/recipeName" }
+                                }
+                            },
+                            "minItems": 1
+                        }
+                    ]
+                },
+                "tutorial_ingredients": {
+                    "oneOf": [
+                        { "type": "null" },
+                        { "$ref": "#/$defs/conveyorIngredients" },
+                        {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "required": ["Burger", "Lasagna", "Cake"],
+                            "properties": {
+                                "Burger": { "type": "array", "items": { "$ref": "#/$defs/ingredient" } },
+                                "Lasagna": { "type": "array", "items": { "$ref": "#/$defs/ingredient" } },
+                                "Cake": { "type": "array", "items": { "$ref": "#/$defs/ingredient" } }
+                            },
+                            "propertyNames": { "$ref": "#/$defs/levelType" }
+                        }
+                    ]
+                },
+                "tutorial_ingredients_hard": { "$ref": "#/$defs/conveyorIngredients" },
+                "tutorial_customer_class": { "$ref": "#/$defs/customer" },
+                "tutorial_customer_class_hard": { "$ref": "#/$defs/customer" },
+                "tutorial_customer_recipe": { "$ref": "#/$defs/recipeName" },
+                "tutorial_customer_recipe_hard": { "$ref": "#/$defs/recipeName" },
+                "tutorial_conveyor_period": { "type": "integer", "minimum": 1 },
+                "tutorial_trash_ingredients_count": { "type": "integer", "minimum": 0 },
+                "tutorial_paper_boxes_quantity": { "type": "integer", "minimum": 0 },
+                "tutorial_sauce_bottle_capacity": { "type": "integer", "minimum": 0 },
+                "tutorial_snack_container_quantity": { "type": "integer", "minimum": 0 },
+                "conveyors_fill_count": { "type": "integer", "minimum": 0 }
+            }
+        }
+    }
+}

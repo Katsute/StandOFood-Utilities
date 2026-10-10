@@ -9,5 +9,9 @@
     "repository": {
         "type": "git",
         "url": "git+https://github.com/Katsute/StandOFood-Utilities.git"
+    },
+    "dependencies": {
+        "7zip-min": "3.0.1",
+        "pngjs": "7.0.0"
     }
 }

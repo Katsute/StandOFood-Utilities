@@ -1,0 +1,5459 @@
+{
+    "customers": {
+        "Deliveryboy": {
+            "name": "Delivery guy",
+            "speed": 125,
+            "waiting_time": 67500,
+            "gratuity_percent": 0.2,
+            "gratuity_time_percent": 0.6,
+            "angry_time_percent": 0.2,
+            "snack_waiting_time_precent": 0.2,
+            "preferred_snacks": {
+                "Burger": "FrenchFries",
+                "Cake": "Coffe",
+                "Lasagna": "Coffe"
+            }
+        },
+        "FastDeliveryboy": {
+            "name": "Delivery guy",
+            "speed": 125,
+            "waiting_time": 15000,
+            "gratuity_percent": 0.2,
+            "gratuity_time_percent": 0.7,
+            "angry_time_percent": 0.2,
+            "snack_waiting_time_precent": 0.2,
+            "preferred_snacks": {
+                "Burger": "FrenchFries",
+                "Cake": "Coffe",
+                "Lasagna": "Coffe"
+            }
+        },
+        "FastGeek": {
+            "name": "Geek",
+            "speed": 120,
+            "waiting_time": 23000,
+            "gratuity_percent": 0.2,
+            "gratuity_time_percent": 0.7,
+            "angry_time_percent": 0.2,
+            "snack_waiting_time_precent": 0.2,
+            "preferred_snacks": {
+                "Burger": "Icecream",
+                "Cake": "Icecream",
+                "Lasagna": "SoftDrinks"
+            }
+        },
+        "FastMom": {
+            "name": "Mommy",
+            "speed": 110,
+            "waiting_time": 15000,
+            "gratuity_percent": 0.2,
+            "gratuity_time_percent": 0.7,
+            "angry_time_percent": 0.2,
+            "snack_waiting_time_precent": 0.2,
+            "preferred_snacks": {
+                "Burger": "Icecream",
+                "Cake": "Icecream",
+                "Lasagna": "Coffe"
+            }
+        },
+        "FastOldwoman": {
+            "name": "Granny",
+            "speed": 60,
+            "waiting_time": 23000,
+            "gratuity_percent": 0.2,
+            "gratuity_time_percent": 0.7,
+            "angry_time_percent": 0.2,
+            "snack_waiting_time_precent": 0.2,
+            "preferred_snacks": {
+                "Burger": "SoftDrinks",
+                "Cake": "SoftDrinks",
+                "Lasagna": "SoftDrinks"
+            }
+        },
+        "FastTeenager": {
+            "name": "Teenager",
+            "speed": 155,
+            "waiting_time": 23000,
+            "gratuity_percent": 0.2,
+            "gratuity_time_percent": 0.7,
+            "angry_time_percent": 0.2,
+            "snack_waiting_time_precent": 0.2,
+            "preferred_snacks": {
+                "Burger": "Icecream",
+                "Cake": "Icecream",
+                "Lasagna": "FrenchFries"
+            }
+        },
+        "FastYappie": {
+            "name": "Yuppie",
+            "speed": 115,
+            "waiting_time": 15000,
+            "gratuity_percent": 0.2,
+            "gratuity_time_percent": 0.7,
+            "angry_time_percent": 0.2,
+            "snack_waiting_time_precent": 0.2,
+            "preferred_snacks": {
+                "Burger": "FrenchFries",
+                "Cake": "Coffe",
+                "Lasagna": "FrenchFries"
+            }
+        },
+        "FastYounggirl": {
+            "name": "Girl",
+            "speed": 135,
+            "waiting_time": 15000,
+            "gratuity_percent": 0.2,
+            "gratuity_time_percent": 0.7,
+            "angry_time_percent": 0.2,
+            "snack_waiting_time_precent": 0.2,
+            "preferred_snacks": {
+                "Burger": "SoftDrinks",
+                "Cake": "SoftDrinks",
+                "Lasagna": "SoftDrinks"
+            }
+        },
+        "Geek": {
+            "name": "Geek",
+            "speed": 120,
+            "waiting_time": 96000,
+            "gratuity_percent": 0.2,
+            "gratuity_time_percent": 0.6,
+            "angry_time_percent": 0.2,
+            "snack_waiting_time_precent": 0.2,
+            "preferred_snacks": {
+                "Burger": "Icecream",
+                "Cake": "Icecream",
+                "Lasagna": "SoftDrinks"
+            }
+        },
+        "Mom": {
+            "name": "Mommy",
+            "speed": 110,
+            "waiting_time": 96000,
+            "gratuity_percent": 0.2,
+            "gratuity_time_percent": 0.6,
+            "angry_time_percent": 0.2,
+            "snack_waiting_time_precent": 0.2,
+            "preferred_snacks": {
+                "Burger": "Icecream",
+                "Cake": "Icecream",
+                "Lasagna": "Coffe"
+            }
+        },
+        "Nikki": {
+            "name": "Nikki",
+            "speed": 140,
+            "waiting_time": 0,
+            "gratuity_percent": 0.2,
+            "gratuity_time_percent": 0.6,
+            "angry_time_percent": 0.2,
+            "snack_waiting_time_precent": 0.2,
+            "preferred_snacks": {
+                "Burger": "FrenchFries",
+                "Cake": "Coffe",
+                "Lasagna": "Coffe"
+            }
+        },
+        "Oldwoman": {
+            "name": "Granny",
+            "speed": 90,
+            "waiting_time": 120000,
+            "gratuity_percent": 0.2,
+            "gratuity_time_percent": 0.6,
+            "angry_time_percent": 0.2,
+            "snack_waiting_time_precent": 0.2,
+            "preferred_snacks": {
+                "Burger": "SoftDrinks",
+                "Cake": "SoftDrinks",
+                "Lasagna": "SoftDrinks"
+            }
+        },
+        "Security": {
+            "name": "Security",
+            "speed": 120,
+            "waiting_time": 0,
+            "gratuity_percent": 0.2,
+            "gratuity_time_percent": 0.6,
+            "angry_time_percent": 0.2,
+            "snack_waiting_time_precent": 0.2,
+            "preferred_snacks": {
+                "Burger": "SoftDrinks",
+                "Cake": "SoftDrinks",
+                "Lasagna": "SoftDrinks"
+            }
+        },
+        "Teenager": {
+            "name": "Teenager",
+            "speed": 155,
+            "waiting_time": 96000,
+            "gratuity_percent": 0.2,
+            "gratuity_time_percent": 0.6,
+            "angry_time_percent": 0.2,
+            "snack_waiting_time_precent": 0.2,
+            "preferred_snacks": {
+                "Burger": "Icecream",
+                "Cake": "Icecream",
+                "Lasagna": "FrenchFries"
+            }
+        },
+        "Yappie": {
+            "name": "Yuppie",
+            "speed": 115,
+            "waiting_time": 60000,
+            "gratuity_percent": 0.2,
+            "gratuity_time_percent": 0.6,
+            "angry_time_percent": 0.2,
+            "snack_waiting_time_precent": 0.2,
+            "preferred_snacks": {
+                "Burger": "FrenchFries",
+                "Cake": "Coffe",
+                "Lasagna": "FrenchFries"
+            }
+        },
+        "Younggirl": {
+            "name": "Girl",
+            "speed": 115,
+            "waiting_time": 96000,
+            "gratuity_percent": 0.2,
+            "gratuity_time_percent": 0.6,
+            "angry_time_percent": 0.2,
+            "snack_waiting_time_precent": 0.2,
+            "preferred_snacks": {
+                "Burger": "SoftDrinks",
+                "Cake": "SoftDrinks",
+                "Lasagna": "SoftDrinks"
+            }
+        }
+    },
+    "ingredients": {
+        "Bacon": 1.2,
+        "Beef": 1.6,
+        "Bilberry": 1.2,
+        "BreadBottom": 0.4,
+        "BreadTop": 0.4,
+        "Cheese": 0.8,
+        "Cherry": 1.6,
+        "Chicken": 1.6,
+        "Chocolate": 1.2,
+        "Egg": 1.2,
+        "FishCake": 1.6,
+        "Jelly": 1.2,
+        "Kivi": 1.6,
+        "LasagnaBacon": 1.2,
+        "LasagnaBeef": 1.6,
+        "LasagnaFish": 1.6,
+        "LasagnaMozarella": 0.8,
+        "LasagnaMushrooms": 1.6,
+        "LasagnaNoodle": 0.4,
+        "LasagnaOnion": 1.2,
+        "LasagnaSpinach": 1.2,
+        "LasagnaTomatoes": 1.2,
+        "Lettuce": 1.2,
+        "Onion": 1.2,
+        "Oranges": 0.8,
+        "Pickles": 1.2,
+        "Plate": 5,
+        "Rose": 1.2,
+        "Strawberry": 1.2,
+        "Tomato": 1.2,
+        "Waffle": 0.4
+    },
+    "sauces": {
+        "Ketchup": {
+            "cost": 0.4,
+            "bonus": {
+                "Beef": 1
+            }
+        },
+        "Curry": {
+            "cost": 0.4,
+            "bonus": {
+                "Chicken": 1
+            }
+        },
+        "Mayonnaise": {
+            "cost": 0.4,
+            "bonus": {
+                "Bacon": 1,
+                "Egg": 1,
+                "Cheese": 1
+            }
+        },
+        "Tartar": {
+            "cost": 0.4,
+            "bonus": {
+                "FishCake": 1,
+                "Bacon": 1
+            }
+        },
+        "Chile": {
+            "cost": 3.6,
+            "bonus": {
+                "Beef": 4,
+                "Chicken": 4,
+                "Egg": 4,
+                "FishCake": 4,
+                "Lettuce": 4
+            }
+        },
+        "Spice": {
+            "cost": 36,
+            "bonus": {
+                "BreadBottom": 40,
+                "BreadTop": 40,
+                "Beef": 40,
+                "Bacon": 40,
+                "Chicken": 40,
+                "FishCake": 40,
+                "Pickles": 40,
+                "Tomato": 40,
+                "Lettuce": 40,
+                "Cheese": 40,
+                "Onion": 40,
+                "Egg": 40
+            }
+        },
+        "Cherry": {
+            "cost": 0.4,
+            "bonus": {
+                "Jelly": 1,
+                "Oranges": 1
+            }
+        },
+        "Whortleberry": {
+            "cost": 0.4,
+            "bonus": {
+                "Bilberry": 1,
+                "Strawberry": 1
+            }
+        },
+        "Chocolate": {
+            "cost": 0.4,
+            "bonus": {
+                "Zefir": 1,
+                "Chocolate": 1
+            }
+        },
+        "Candy": {
+            "cost": 0.4,
+            "bonus": {
+                "Cherry": 1
+            }
+        },
+        "Whip": {
+            "cost": 3.6,
+            "bonus": {
+                "Jelly": 4,
+                "Kivi": 4,
+                "Chocolate": 4,
+                "Cherry": 4,
+                "Rose": 4
+            }
+        },
+        "SecretCake": {
+            "cost": 36,
+            "bonus": {
+                "Chocolate": 40,
+                "Bilberry": 40,
+                "Rose": 40,
+                "Jelly": 40,
+                "Strawberry": 40,
+                "Cherry": 40,
+                "Kivi": 40,
+                "Oranges": 40,
+                "Waffle": 40,
+                "Zefir": 40
+            }
+        },
+        "Olive_oil": {
+            "cost": 0.4,
+            "bonus": {
+                "LasagnaMozarella": 1,
+                "LasagnaMushrooms": 1
+            }
+        },
+        "Cheese": {
+            "cost": 0.4,
+            "bonus": {
+                "LasagnaTomatoes": 1,
+                "LasagnaBacon": 1
+            }
+        },
+        "KetchupLasagna": {
+            "cost": 0.4,
+            "bonus": {
+                "LasagnaBeef": 1
+            }
+        },
+        "Pepper_oil": {
+            "cost": 0.4,
+            "bonus": {
+                "LasagnaFish": 1,
+                "LasagnaOnion": 1
+            }
+        },
+        "Garlic_oil": {
+            "cost": 3.6,
+            "bonus": {
+                "LasagnaFish": 4,
+                "LasagnaMushrooms": 4,
+                "LasagnaBeef": 4,
+                "LasagnaSpinach": 4,
+                "LasagnaBacon": 4
+            }
+        },
+        "SecretLasagna": {
+            "cost": 36,
+            "bonus": {
+                "LasagnaBeef": 40,
+                "LasagnaBacon": 40,
+                "LasagnaMozarella": 40,
+                "LasagnaFish": 40,
+                "LasagnaMushrooms": 40,
+                "LasagnaTomatoes": 40,
+                "LasagnaSpinach": 40,
+                "LasagnaOnion": 40,
+                "LasagnaNoodle": 40
+            }
+        }
+    },
+    "snacks": {
+        "FrenchFries": {
+            "cost": 1.5,
+            "snack_cost": 3
+        },
+        "SoftDrinks": {
+            "cost": 0.9375,
+            "snack_cost": 1.875
+        },
+        "Icecream": {
+            "cost": 1.125,
+            "snack_cost": 2.25
+        },
+        "Coffe": {
+            "cost": 1.5,
+            "snack_cost": 3
+        }
+    },
+    "upgrades": {
+        "Jukebox1": {
+            "type": "Normal",
+            "cost": 150,
+            "waiting_bonus": 9000
+        },
+        "Jukebox2": {
+            "type": "Normal",
+            "cost": 400,
+            "waiting_bonus": 18000
+        },
+        "Jukebox3": {
+            "type": "Normal",
+            "cost": 600,
+            "waiting_bonus": 27000
+        },
+        "Conditioner1": {
+            "type": "Normal",
+            "cost": 300,
+            "waiting_bonus": 9000
+        },
+        "Conditioner2": {
+            "type": "Normal",
+            "cost": 400,
+            "waiting_bonus": 18000
+        },
+        "Conditioner3": {
+            "type": "Normal",
+            "cost": 600,
+            "waiting_bonus": 27000
+        },
+        "Flower_01": {
+            "type": "Decorative",
+            "cost": 100
+        },
+        "Flower_02": {
+            "type": "Decorative",
+            "cost": 150
+        },
+        "Flower_03": {
+            "type": "Decorative",
+            "cost": 200
+        },
+        "CoffeeMachine1": {
+            "type": "Normal",
+            "cost": 200,
+            "speed_bonus": 45
+        },
+        "CoffeeMachine2": {
+            "type": "Normal",
+            "cost": 300,
+            "speed_bonus": 90
+        },
+        "CoffeeMachine3": {
+            "type": "Normal",
+            "cost": 600,
+            "speed_bonus": 135
+        },
+        "Heater1": {
+            "type": "Normal",
+            "cost": 200,
+            "heat_bonus": 0.15
+        },
+        "Heater2": {
+            "type": "Normal",
+            "cost": 400,
+            "heat_bonus": 0.25
+        },
+        "Heater3": {
+            "type": "Normal",
+            "cost": 600,
+            "heat_bonus": 0.35
+        },
+        "ContainerFrenchFries1": {
+            "type": "Normal",
+            "cost": 200
+        },
+        "ContainerFrenchFries2": {
+            "type": "Normal",
+            "cost": 600
+        },
+        "ContainerSoftDrinks1": {
+            "type": "Normal",
+            "cost": 200
+        },
+        "ContainerSoftDrinks2": {
+            "type": "Normal",
+            "cost": 600
+        },
+        "ContainerIcecream1": {
+            "type": "Normal",
+            "cost": 200
+        },
+        "ContainerIcecream2": {
+            "type": "Normal",
+            "cost": 600
+        },
+        "ContainerCoffe1": {
+            "type": "Normal",
+            "cost": 200
+        },
+        "ContainerCoffe2": {
+            "type": "Normal",
+            "cost": 400
+        },
+        "SauceKetchup": {
+            "type": "Consumable",
+            "cost": 0.4
+        },
+        "SauceChile": {
+            "type": "Consumable",
+            "cost": 3.6
+        },
+        "SauceCurry": {
+            "type": "Consumable",
+            "cost": 0.4
+        },
+        "SauceSpice": {
+            "type": "Consumable",
+            "cost": 36
+        },
+        "SauceTartar": {
+            "type": "Consumable",
+            "cost": 0.4
+        },
+        "SauceMayonnaise": {
+            "type": "Consumable",
+            "cost": 0.4
+        },
+        "SauceCandy": {
+            "type": "Consumable",
+            "cost": 0.4
+        },
+        "SauceCheese": {
+            "type": "Consumable",
+            "cost": 0.4
+        },
+        "SauceCherry": {
+            "type": "Consumable",
+            "cost": 0.4
+        },
+        "SauceChocolate": {
+            "type": "Consumable",
+            "cost": 0.4
+        },
+        "SauceGarlic_oil": {
+            "type": "Consumable",
+            "cost": 3.6
+        },
+        "SauceKetchupLasagna": {
+            "type": "Consumable",
+            "cost": 0.4
+        },
+        "SauceOlive_oil": {
+            "type": "Consumable",
+            "cost": 0.4
+        },
+        "SaucePepper_oil": {
+            "type": "Consumable",
+            "cost": 0.4
+        },
+        "SauceSecretCake": {
+            "type": "Consumable",
+            "cost": 36
+        },
+        "SauceSecretLasagna": {
+            "type": "Consumable",
+            "cost": 36
+        },
+        "SauceWhip": {
+            "type": "Consumable",
+            "cost": 3.6
+        },
+        "SauceWhortleberry": {
+            "type": "Consumable",
+            "cost": 0.4
+        },
+        "FrenchFries": {
+            "type": "Consumable",
+            "cost": 1.5
+        },
+        "SoftDrinks": {
+            "type": "Consumable",
+            "cost": 0.9375
+        },
+        "Icecream": {
+            "type": "Consumable",
+            "cost": 1.125
+        },
+        "Coffe": {
+            "type": "Consumable",
+            "cost": 1.5
+        },
+        "PaperBoxes": {
+            "type": "Consumable",
+            "cost": 10
+        },
+        "Plate1": {
+            "type": "Consumable",
+            "cost": 50
+        },
+        "Plate2": {
+            "type": "Consumable",
+            "cost": 50
+        },
+        "Plate3": {
+            "type": "Consumable",
+            "cost": 50
+        },
+        "Plate4": {
+            "type": "Consumable",
+            "cost": 50
+        },
+        "Claw": {
+            "type": "Consumable",
+            "cost": 15
+        }
+    },
+    "recipes": {
+        "Chickburger1": {
+            "type": "TapperBurger",
+            "ingredients": [
+                "Plate",
+                "BreadBottom",
+                "Chicken",
+                "BreadTop"
+            ],
+            "customers": [
+                "Younggirl"
+            ]
+        },
+        "Cheese_Toast": {
+            "type": "Burger",
+            "ingredients": [
+                "BreadBottom",
+                "Cheese"
+            ],
+            "customers": [
+                "Mom"
+            ]
+        },
+        "Fish_Snack": {
+            "type": "Burger",
+            "ingredients": [
+                "BreadBottom",
+                "FishCake"
+            ],
+            "customers": [
+                "Geek"
+            ]
+        },
+        "Bacon_Toast": {
+            "type": "Burger",
+            "ingredients": [
+                "BreadBottom",
+                "Bacon"
+            ],
+            "customers": [
+                "Younggirl"
+            ]
+        },
+        "Morning_Egg": {
+            "type": "Burger",
+            "ingredients": [
+                "BreadBottom",
+                "Egg"
+            ],
+            "customers": [
+                "Yappie"
+            ]
+        },
+        "Hamburger": {
+            "type": "Burger",
+            "ingredients": [
+                "BreadBottom",
+                "Beef",
+                "BreadTop"
+            ],
+            "customers": [
+                "Oldwoman"
+            ]
+        },
+        "Chickburger": {
+            "type": "Burger",
+            "ingredients": [
+                "BreadBottom",
+                "Chicken",
+                "BreadTop"
+            ],
+            "customers": [
+                "Younggirl"
+            ]
+        },
+        "Sandwich": {
+            "type": "Burger",
+            "ingredients": [
+                "BreadBottom",
+                "Bacon",
+                "BreadTop"
+            ],
+            "customers": [
+                "Deliveryboy"
+            ]
+        },
+        "Fishburger": {
+            "type": "Burger",
+            "ingredients": [
+                "BreadBottom",
+                "FishCake",
+                "BreadTop"
+            ],
+            "customers": [
+                "Mom"
+            ]
+        },
+        "Eggburger": {
+            "type": "Burger",
+            "ingredients": [
+                "BreadBottom",
+                "Egg",
+                "BreadTop"
+            ],
+            "customers": [
+                "Yappie"
+            ]
+        },
+        "Leaf_o_Beaf": {
+            "type": "Burger",
+            "ingredients": [
+                "Lettuce",
+                "Beef",
+                "Lettuce"
+            ],
+            "customers": [
+                "Deliveryboy"
+            ]
+        },
+        "Leaf_o_Chick": {
+            "type": "Burger",
+            "ingredients": [
+                "Lettuce",
+                "Chicken",
+                "Lettuce"
+            ],
+            "customers": [
+                "Yappie"
+            ]
+        },
+        "Leaf_o_Fish": {
+            "type": "Burger",
+            "ingredients": [
+                "Lettuce",
+                "FishCake",
+                "Lettuce"
+            ],
+            "customers": [
+                "Mom"
+            ]
+        },
+        "Egg_In_Leaf": {
+            "type": "Burger",
+            "ingredients": [
+                "Lettuce",
+                "Egg",
+                "Lettuce"
+            ],
+            "customers": [
+                "Younggirl"
+            ]
+        },
+        "Salad": {
+            "type": "Burger",
+            "ingredients": [
+                "Lettuce",
+                "Pickles",
+                "Onion",
+                "Lettuce"
+            ],
+            "customers": [
+                "Younggirl"
+            ]
+        },
+        "Salad1": {
+            "type": "TapperBurger",
+            "ingredients": [
+                "Plate",
+                "Lettuce",
+                "Pickles",
+                "Onion",
+                "Lettuce"
+            ],
+            "customers": [
+                "Younggirl"
+            ]
+        },
+        "Breakfast_Sandwich": {
+            "type": "Burger",
+            "ingredients": [
+                "BreadBottom",
+                "Bacon",
+                "Cheese",
+                "BreadTop"
+            ],
+            "customers": [
+                "Oldwoman"
+            ]
+        },
+        "Classic_Breakfast": {
+            "type": "Burger",
+            "ingredients": [
+                "BreadBottom",
+                "Beef",
+                "Cheese",
+                "BreadTop"
+            ],
+            "customers": [
+                "Deliveryboy"
+            ]
+        },
+        "Dish_o_Fish": {
+            "type": "Burger",
+            "ingredients": [
+                "BreadBottom",
+                "FishCake",
+                "Pickles",
+                "BreadTop"
+            ],
+            "customers": [
+                "Mom"
+            ]
+        },
+        "Fresh_o_Fish": {
+            "type": "Burger",
+            "ingredients": [
+                "BreadBottom",
+                "FishCake",
+                "Lettuce",
+                "BreadTop"
+            ],
+            "customers": [
+                "Teenager"
+            ]
+        },
+        "Meal_o_Meat": {
+            "type": "Burger",
+            "ingredients": [
+                "BreadBottom",
+                "Beef",
+                "Pickles",
+                "BreadTop"
+            ],
+            "customers": [
+                "Yappie"
+            ]
+        },
+        "Food_o_Morning": {
+            "type": "Burger",
+            "ingredients": [
+                "BreadBottom",
+                "Bacon",
+                "Egg",
+                "Bacon",
+                "BreadTop"
+            ],
+            "customers": [
+                "Teenager"
+            ]
+        },
+        "Food_o_Morning1": {
+            "type": "TapperLasagna",
+            "ingredients": [
+                "Plate",
+                "LasagnaNoodle",
+                "LasagnaBeef",
+                "LasagnaNoodle"
+            ],
+            "customers": [
+                "Teenager"
+            ]
+        },
+        "Lot_o_Meat": {
+            "type": "Burger",
+            "ingredients": [
+                "BreadBottom",
+                "Beef",
+                "Bacon",
+                "Beef",
+                "BreadTop"
+            ],
+            "customers": [
+                "Younggirl"
+            ]
+        },
+        "Veggie_o_Fish": {
+            "type": "Burger",
+            "ingredients": [
+                "BreadBottom",
+                "FishCake",
+                "Pickles",
+                "Lettuce",
+                "BreadTop"
+            ],
+            "customers": [
+                "Oldwoman"
+            ]
+        },
+        "Vegetarian_Meal": {
+            "type": "Burger",
+            "ingredients": [
+                "BreadBottom",
+                "Onion",
+                "Lettuce",
+                "Pickles",
+                "BreadTop"
+            ],
+            "customers": [
+                "Geek"
+            ]
+        },
+        "Bloodburger": {
+            "type": "Burger",
+            "ingredients": [
+                "BreadBottom",
+                "Tomato",
+                "Beef",
+                "Tomato",
+                "Beef",
+                "Tomato",
+                "BreadTop"
+            ],
+            "customers": [
+                "Younggirl"
+            ]
+        },
+        "Tomato_Maniac": {
+            "type": "Burger",
+            "ingredients": [
+                "BreadBottom",
+                "Tomato",
+                "Tomato",
+                "Beef",
+                "Tomato",
+                "Tomato",
+                "BreadTop"
+            ],
+            "customers": [
+                "Mom"
+            ]
+        },
+        "French_Fish": {
+            "type": "Burger",
+            "ingredients": [
+                "BreadBottom",
+                "Cheese",
+                "FishCake",
+                "Cheese",
+                "FishCake",
+                "Cheese",
+                "BreadTop"
+            ],
+            "customers": [
+                "Oldwoman"
+            ]
+        },
+        "Mouse_Trap": {
+            "type": "Burger",
+            "ingredients": [
+                "BreadBottom",
+                "Cheese",
+                "Cheese",
+                "Egg",
+                "Cheese",
+                "Cheese",
+                "BreadTop"
+            ],
+            "customers": [
+                "Teenager"
+            ]
+        },
+        "Extraburger": {
+            "type": "Burger",
+            "ingredients": [
+                "BreadBottom",
+                "Cheese",
+                "Beef",
+                "Cheese",
+                "Chicken",
+                "Cheese",
+                "Beef",
+                "BreadTop"
+            ],
+            "customers": [
+                "Yappie"
+            ]
+        },
+        "Dreamburger": {
+            "type": "Burger",
+            "ingredients": [
+                "BreadBottom",
+                "Cheese",
+                "Chicken",
+                "Cheese",
+                "Beef",
+                "Cheese",
+                "Chicken",
+                "BreadTop"
+            ],
+            "customers": [
+                "Younggirl"
+            ]
+        },
+        "Hungry_Fox": {
+            "type": "Burger",
+            "ingredients": [
+                "BreadBottom",
+                "Cheese",
+                "Egg",
+                "Cheese",
+                "Beef",
+                "Cheese",
+                "Egg",
+                "BreadTop"
+            ],
+            "customers": [
+                "Teenager"
+            ]
+        },
+        "Cake1": {
+            "type": "Cake",
+            "ingredients": [
+                "Waffle",
+                "Chocolate"
+            ],
+            "customers": [
+                "Yappie"
+            ]
+        },
+        "Cake2": {
+            "type": "Cake",
+            "ingredients": [
+                "Waffle",
+                "Jelly"
+            ],
+            "customers": [
+                "Oldwoman"
+            ]
+        },
+        "Cake3": {
+            "type": "Cake",
+            "ingredients": [
+                "Waffle",
+                "Kivi"
+            ],
+            "customers": [
+                "Teenager"
+            ]
+        },
+        "Cake6": {
+            "type": "Cake",
+            "ingredients": [
+                "Waffle",
+                "Rose"
+            ],
+            "customers": [
+                "Mom"
+            ]
+        },
+        "Cake9": {
+            "type": "Cake",
+            "ingredients": [
+                "Waffle",
+                "Chocolate",
+                "Bilberry"
+            ],
+            "customers": [
+                "Deliveryboy"
+            ]
+        },
+        "Cake11": {
+            "type": "Cake",
+            "ingredients": [
+                "Waffle",
+                "Chocolate",
+                "Rose"
+            ],
+            "customers": [
+                "Geek"
+            ]
+        },
+        "Cake12": {
+            "type": "Cake",
+            "ingredients": [
+                "Waffle",
+                "Chocolate",
+                "Jelly"
+            ],
+            "customers": [
+                "Teenager"
+            ]
+        },
+        "Cake14": {
+            "type": "Cake",
+            "ingredients": [
+                "Waffle",
+                "Jelly",
+                "Bilberry"
+            ],
+            "customers": [
+                "Yappie"
+            ]
+        },
+        "Cake15": {
+            "type": "Cake",
+            "ingredients": [
+                "Waffle",
+                "Chocolate",
+                "Waffle",
+                "Oranges"
+            ],
+            "customers": [
+                "Deliveryboy"
+            ]
+        },
+        "Cake16": {
+            "type": "Cake",
+            "ingredients": [
+                "Waffle",
+                "Chocolate",
+                "Jelly",
+                "Oranges"
+            ],
+            "customers": [
+                "Teenager"
+            ]
+        },
+        "Cake17": {
+            "type": "Cake",
+            "ingredients": [
+                "Waffle",
+                "Chocolate",
+                "Waffle",
+                "Bilberry"
+            ],
+            "customers": [
+                "Younggirl"
+            ]
+        },
+        "Cake20": {
+            "type": "Cake",
+            "ingredients": [
+                "Waffle",
+                "Jelly",
+                "Waffle",
+                "Bilberry"
+            ],
+            "customers": [
+                "Yappie"
+            ]
+        },
+        "Cake21": {
+            "type": "Cake",
+            "ingredients": [
+                "Waffle",
+                "Jelly",
+                "Waffle",
+                "Oranges"
+            ],
+            "customers": [
+                "Geek"
+            ]
+        },
+        "Cake22": {
+            "type": "Cake",
+            "ingredients": [
+                "Waffle",
+                "Chocolate",
+                "Waffle",
+                "Jelly",
+                "Cherry"
+            ],
+            "customers": [
+                "Yappie"
+            ]
+        },
+        "Cake23": {
+            "type": "Cake",
+            "ingredients": [
+                "Waffle",
+                "Chocolate",
+                "Waffle",
+                "Chocolate",
+                "Cherry"
+            ],
+            "customers": [
+                "Deliveryboy"
+            ]
+        },
+        "Cake24": {
+            "type": "Cake",
+            "ingredients": [
+                "Waffle",
+                "Jelly",
+                "Waffle",
+                "Chocolate",
+                "Cherry"
+            ],
+            "customers": [
+                "Younggirl"
+            ]
+        },
+        "Cake25": {
+            "type": "Cake",
+            "ingredients": [
+                "Waffle",
+                "Jelly",
+                "Waffle",
+                "Jelly",
+                "Cherry"
+            ],
+            "customers": [
+                "Geek"
+            ]
+        },
+        "Cake30": {
+            "type": "Cake",
+            "ingredients": [
+                "Waffle",
+                "Chocolate",
+                "Jelly",
+                "Chocolate",
+                "Waffle",
+                "Bilberry"
+            ],
+            "customers": [
+                "Younggirl"
+            ]
+        },
+        "Cake32": {
+            "type": "Cake",
+            "ingredients": [
+                "Waffle",
+                "Jelly",
+                "Chocolate",
+                "Jelly",
+                "Waffle",
+                "Strawberry"
+            ],
+            "customers": [
+                "Geek"
+            ]
+        },
+        "Cake35": {
+            "type": "Cake",
+            "ingredients": [
+                "Waffle",
+                "Strawberry",
+                "Chocolate",
+                "Strawberry",
+                "Waffle",
+                "Bilberry"
+            ],
+            "customers": [
+                "Teenager"
+            ]
+        },
+        "Cake36": {
+            "type": "Cake",
+            "ingredients": [
+                "Waffle",
+                "Chocolate",
+                "Strawberry",
+                "Chocolate",
+                "Bilberry",
+                "Chocolate",
+                "Waffle"
+            ],
+            "customers": [
+                "Deliveryboy"
+            ]
+        },
+        "Cake37": {
+            "type": "Cake",
+            "ingredients": [
+                "Waffle",
+                "Jelly",
+                "Oranges",
+                "Jelly",
+                "Oranges",
+                "Waffle",
+                "Strawberry"
+            ],
+            "customers": [
+                "Teenager"
+            ]
+        },
+        "Cake39": {
+            "type": "Cake",
+            "ingredients": [
+                "Waffle",
+                "Chocolate",
+                "Oranges",
+                "Jelly",
+                "Oranges",
+                "Chocolate",
+                "Waffle"
+            ],
+            "customers": [
+                "Geek"
+            ]
+        },
+        "Cake42": {
+            "type": "Cake",
+            "ingredients": [
+                "Waffle",
+                "Chocolate",
+                "Jelly",
+                "Chocolate",
+                "Jelly",
+                "Chocolate",
+                "Strawberry"
+            ],
+            "customers": [
+                "Oldwoman"
+            ]
+        },
+        "Cake43": {
+            "type": "Cake",
+            "ingredients": [
+                "Waffle",
+                "Bilberry",
+                "Chocolate",
+                "Kivi",
+                "Chocolate",
+                "Strawberry",
+                "Chocolate",
+                "Kivi"
+            ],
+            "customers": [
+                "Younggirl"
+            ]
+        },
+        "Cake44": {
+            "type": "Cake",
+            "ingredients": [
+                "Waffle",
+                "Chocolate",
+                "Strawberry",
+                "Chocolate",
+                "Strawberry",
+                "Chocolate",
+                "Waffle",
+                "Kivi"
+            ],
+            "customers": [
+                "Yappie"
+            ]
+        },
+        "Cake45": {
+            "type": "Cake",
+            "ingredients": [
+                "Waffle",
+                "Jelly",
+                "Bilberry",
+                "Jelly",
+                "Bilberry",
+                "Jelly",
+                "Waffle",
+                "Kivi"
+            ],
+            "customers": [
+                "Teenager"
+            ]
+        },
+        "Lasagna1": {
+            "type": "Lasagna",
+            "ingredients": [
+                "LasagnaNoodle",
+                "LasagnaBacon"
+            ],
+            "customers": [
+                "Deliveryboy"
+            ]
+        },
+        "Lasagna2": {
+            "type": "Lasagna",
+            "ingredients": [
+                "LasagnaNoodle",
+                "LasagnaBeef"
+            ],
+            "customers": [
+                "Mom"
+            ]
+        },
+        "Lasagna3": {
+            "type": "Lasagna",
+            "ingredients": [
+                "LasagnaNoodle",
+                "LasagnaFish"
+            ],
+            "customers": [
+                "Younggirl"
+            ]
+        },
+        "Lasagna5": {
+            "type": "Lasagna",
+            "ingredients": [
+                "LasagnaNoodle",
+                "LasagnaMushrooms"
+            ],
+            "customers": [
+                "Teenager"
+            ]
+        },
+        "Lasagna8": {
+            "type": "Lasagna",
+            "ingredients": [
+                "LasagnaNoodle",
+                "LasagnaBacon",
+                "LasagnaNoodle"
+            ],
+            "customers": [
+                "Deliveryboy"
+            ]
+        },
+        "Lasagna9": {
+            "type": "Lasagna",
+            "ingredients": [
+                "LasagnaNoodle",
+                "LasagnaBeef",
+                "LasagnaNoodle"
+            ],
+            "customers": [
+                "Teenager"
+            ]
+        },
+        "Lasagna10": {
+            "type": "Lasagna",
+            "ingredients": [
+                "LasagnaNoodle",
+                "LasagnaFish",
+                "LasagnaNoodle"
+            ],
+            "customers": [
+                "Oldwoman"
+            ]
+        },
+        "Lasagna14": {
+            "type": "Lasagna",
+            "ingredients": [
+                "LasagnaNoodle",
+                "LasagnaSpinach",
+                "LasagnaNoodle"
+            ],
+            "customers": [
+                "Younggirl"
+            ]
+        },
+        "Lasagna15": {
+            "type": "Lasagna",
+            "ingredients": [
+                "LasagnaNoodle",
+                "LasagnaBacon",
+                "LasagnaMozarella",
+                "LasagnaNoodle"
+            ],
+            "customers": [
+                "Deliveryboy"
+            ]
+        },
+        "Lasagna16": {
+            "type": "Lasagna",
+            "ingredients": [
+                "LasagnaNoodle",
+                "LasagnaBeef",
+                "LasagnaMozarella",
+                "LasagnaNoodle"
+            ],
+            "customers": [
+                "Mom"
+            ]
+        },
+        "Lasagna17": {
+            "type": "Lasagna",
+            "ingredients": [
+                "LasagnaNoodle",
+                "LasagnaFish",
+                "LasagnaTomatoes",
+                "LasagnaNoodle"
+            ],
+            "customers": [
+                "Younggirl"
+            ]
+        },
+        "Lasagna18": {
+            "type": "Lasagna",
+            "ingredients": [
+                "LasagnaNoodle",
+                "LasagnaBacon",
+                "LasagnaTomatoes",
+                "LasagnaNoodle"
+            ],
+            "customers": [
+                "Geek"
+            ]
+        },
+        "Lasagna20": {
+            "type": "Lasagna",
+            "ingredients": [
+                "LasagnaNoodle",
+                "LasagnaFish",
+                "LasagnaSpinach",
+                "LasagnaNoodle"
+            ],
+            "customers": [
+                "Yappie"
+            ]
+        },
+        "Lasagna22": {
+            "type": "Lasagna",
+            "ingredients": [
+                "LasagnaNoodle",
+                "LasagnaBacon",
+                "LasagnaNoodle",
+                "LasagnaMushrooms",
+                "LasagnaNoodle"
+            ],
+            "customers": [
+                "Yappie"
+            ]
+        },
+        "Lasagna23": {
+            "type": "Lasagna",
+            "ingredients": [
+                "LasagnaNoodle",
+                "LasagnaBeef",
+                "LasagnaNoodle",
+                "LasagnaMushrooms",
+                "LasagnaNoodle"
+            ],
+            "customers": [
+                "Deliveryboy"
+            ]
+        },
+        "Lasagna24": {
+            "type": "Lasagna",
+            "ingredients": [
+                "LasagnaNoodle",
+                "LasagnaFish",
+                "LasagnaNoodle",
+                "LasagnaMushrooms",
+                "LasagnaNoodle"
+            ],
+            "customers": [
+                "Younggirl"
+            ]
+        },
+        "Lasagna28": {
+            "type": "Lasagna",
+            "ingredients": [
+                "LasagnaNoodle",
+                "LasagnaMushrooms",
+                "LasagnaNoodle",
+                "LasagnaMushrooms",
+                "LasagnaNoodle"
+            ],
+            "customers": [
+                "Oldwoman"
+            ]
+        },
+        "Lasagna30": {
+            "type": "Lasagna",
+            "ingredients": [
+                "LasagnaNoodle",
+                "LasagnaBeef",
+                "LasagnaNoodle",
+                "LasagnaTomatoes",
+                "LasagnaMozarella",
+                "LasagnaNoodle"
+            ],
+            "customers": [
+                "Mom"
+            ]
+        },
+        "Lasagna32": {
+            "type": "Lasagna",
+            "ingredients": [
+                "LasagnaNoodle",
+                "LasagnaBacon",
+                "LasagnaNoodle",
+                "LasagnaMushrooms",
+                "LasagnaMozarella",
+                "LasagnaNoodle"
+            ],
+            "customers": [
+                "Geek"
+            ]
+        },
+        "Lasagna35": {
+            "type": "Lasagna",
+            "ingredients": [
+                "LasagnaNoodle",
+                "LasagnaBeef",
+                "LasagnaNoodle",
+                "LasagnaBacon",
+                "LasagnaMozarella",
+                "LasagnaNoodle"
+            ],
+            "customers": [
+                "Oldwoman"
+            ]
+        },
+        "Lasagna36": {
+            "type": "Lasagna",
+            "ingredients": [
+                "LasagnaNoodle",
+                "LasagnaBacon",
+                "LasagnaNoodle",
+                "LasagnaTomatoes",
+                "LasagnaMozarella",
+                "LasagnaOnion",
+                "LasagnaNoodle"
+            ],
+            "customers": [
+                "Geek"
+            ]
+        },
+        "Lasagna37": {
+            "type": "Lasagna",
+            "ingredients": [
+                "LasagnaNoodle",
+                "LasagnaBeef",
+                "LasagnaNoodle",
+                "LasagnaTomatoes",
+                "LasagnaMozarella",
+                "LasagnaOnion",
+                "LasagnaNoodle"
+            ],
+            "customers": [
+                "Mom"
+            ]
+        },
+        "Lasagna41": {
+            "type": "Lasagna",
+            "ingredients": [
+                "LasagnaNoodle",
+                "LasagnaFish",
+                "LasagnaNoodle",
+                "LasagnaSpinach",
+                "LasagnaMozarella",
+                "LasagnaOnion",
+                "LasagnaNoodle"
+            ],
+            "customers": [
+                "Yappie"
+            ]
+        },
+        "Lasagna42": {
+            "type": "Lasagna",
+            "ingredients": [
+                "LasagnaNoodle",
+                "LasagnaOnion",
+                "LasagnaNoodle",
+                "LasagnaTomatoes",
+                "LasagnaMozarella",
+                "LasagnaSpinach",
+                "LasagnaNoodle"
+            ],
+            "customers": [
+                "Teenager"
+            ]
+        },
+        "Lasagna43": {
+            "type": "Lasagna",
+            "ingredients": [
+                "LasagnaNoodle",
+                "LasagnaBacon",
+                "LasagnaNoodle",
+                "LasagnaSpinach",
+                "LasagnaNoodle",
+                "LasagnaBacon",
+                "LasagnaTomatoes",
+                "LasagnaNoodle"
+            ],
+            "customers": [
+                "Yappie"
+            ]
+        },
+        "Lasagna44": {
+            "type": "Lasagna",
+            "ingredients": [
+                "LasagnaNoodle",
+                "LasagnaBeef",
+                "LasagnaNoodle",
+                "LasagnaTomatoes",
+                "LasagnaNoodle",
+                "LasagnaBeef",
+                "LasagnaOnion",
+                "LasagnaNoodle"
+            ],
+            "customers": [
+                "Mom"
+            ]
+        },
+        "Lasagna45": {
+            "type": "Lasagna",
+            "ingredients": [
+                "LasagnaNoodle",
+                "LasagnaFish",
+                "LasagnaNoodle",
+                "LasagnaSpinach",
+                "LasagnaNoodle",
+                "LasagnaFish",
+                "LasagnaSpinach",
+                "LasagnaNoodle"
+            ],
+            "customers": [
+                "Oldwoman"
+            ]
+        },
+        "Lasagna451": {
+            "type": "TapperLasagna",
+            "ingredients": [
+                "Plate",
+                "LasagnaNoodle",
+                "LasagnaFish",
+                "LasagnaNoodle",
+                "LasagnaSpinach",
+                "LasagnaNoodle",
+                "LasagnaFish",
+                "LasagnaNoodle"
+            ],
+            "customers": [
+                "Yappie"
+            ]
+        },
+        "Lasagna49": {
+            "type": "Lasagna",
+            "ingredients": [
+                "LasagnaNoodle",
+                "LasagnaOnion",
+                "LasagnaNoodle",
+                "LasagnaTomatoes",
+                "LasagnaNoodle",
+                "LasagnaTomatoes",
+                "LasagnaOnion",
+                "LasagnaNoodle"
+            ],
+            "customers": [
+                "Younggirl"
+            ]
+        },
+        "Lasagna51": {
+            "type": "Lasagna",
+            "ingredients": [
+                "LasagnaNoodle",
+                "LasagnaBeef",
+                "LasagnaNoodle",
+                "LasagnaSpinach",
+                "LasagnaNoodle",
+                "LasagnaSpinach",
+                "LasagnaNoodle",
+                "LasagnaBeef",
+                "LasagnaNoodle"
+            ],
+            "customers": [
+                "Deliveryboy"
+            ]
+        },
+        "Lasagna55": {
+            "type": "Lasagna",
+            "ingredients": [
+                "LasagnaNoodle",
+                "LasagnaFish",
+                "LasagnaNoodle",
+                "LasagnaSpinach",
+                "LasagnaOnion",
+                "LasagnaNoodle",
+                "LasagnaFish",
+                "LasagnaSpinach",
+                "LasagnaNoodle"
+            ],
+            "customers": [
+                "Geek"
+            ]
+        },
+        "Lasagna56": {
+            "type": "Lasagna",
+            "ingredients": [
+                "LasagnaNoodle",
+                "LasagnaMushrooms",
+                "LasagnaNoodle",
+                "LasagnaTomatoes",
+                "LasagnaNoodle",
+                "LasagnaSpinach",
+                "LasagnaNoodle",
+                "LasagnaOnion",
+                "LasagnaNoodle"
+            ],
+            "customers": [
+                "Teenager"
+            ]
+        }
+    },
+    "difficulties": [
+        {
+            "waiting_time_coef": 1,
+            "snack_waiting_time_coef": 1,
+            "conditioner_waiting_time_coef": 1,
+            "jukebox_bonus_time_coef": 1,
+            "unavailable_achievements": []
+        },
+        {
+            "waiting_time_coef": 0.7,
+            "snack_waiting_time_coef": 0.7,
+            "conditioner_waiting_time_coef": 0.7,
+            "jukebox_bonus_time_coef": 0.7,
+            "unavailable_achievements": []
+        },
+        {
+            "waiting_time_coef": 0.6,
+            "snack_waiting_time_coef": 0.6,
+            "conditioner_waiting_time_coef": 0.6,
+            "jukebox_bonus_time_coef": 0.6,
+            "unavailable_achievements": [
+                "DisguiseMaster"
+            ]
+        }
+    ],
+    "level_bases": {
+        "Level": {
+            "base": "LevelBase",
+            "type": "Burger",
+            "is_customers_with_tray": true,
+            "customer_take_sandwich_time": 500,
+            "customers_time_interval": 9000,
+            "bonus_count_factor": 0.2,
+            "min_score_increase": 0,
+            "claw_count": 10,
+            "customers_in_queue_max": 7,
+            "customers_in_queue_min": 3,
+            "customers_interval_increase": 0.5,
+            "time_generate_add": 100,
+            "length_to_break_route": 250,
+            "can_player_return_ingredients": true,
+            "is_customers_waiting": true,
+            "is_paper_boxes_unlimited": false,
+            "max_player_sandwich_length": 10,
+            "is_customers_clickable": true,
+            "is_combo_allowed": true,
+            "order_cost_factor": 1,
+            "is_sauces_available": true,
+            "is_snacks_available": true,
+            "is_bonus_level": false,
+            "min_progress_to_unlock_shop": 2,
+            "ranks": [
+                {
+                    "customers_lost_over": 2,
+                    "expenditures_over_factor": 10,
+                    "text": "Poor"
+                },
+                {
+                    "customers_lost_over": 1,
+                    "expenditures_over_factor": 4,
+                    "text": "Good"
+                },
+                {
+                    "customers_lost_over": 0,
+                    "expenditures_over_factor": 2,
+                    "text": "Excellent",
+                    "customers_to_consumes_over_factor": 0.6
+                },
+                {
+                    "expenditures_over_factor": 1,
+                    "text": "Perfect",
+                    "customers_to_consumes_over_factor": 0.8
+                },
+                {
+                    "text": "Incredible"
+                }
+            ],
+            "difficulty_level_to_unreachable_objects": [
+                [],
+                [],
+                [
+                    "Plate4",
+                    "TrashBin",
+                    "BoxClaw",
+                    "PaperBoxes"
+                ]
+            ],
+            "trash_bin_usage_cost_factor": 4
+        },
+        "LevelRecipesDay": {
+            "base": "Level",
+            "recipes": [],
+            "customers_params": [],
+            "bonus_customers_params": [],
+            "ranks": [
+                {
+                    "customers_lost_over": 10,
+                    "text": "Poor"
+                },
+                {
+                    "customers_lost_over": 3,
+                    "text": "Good"
+                },
+                {
+                    "customers_lost_over": 1,
+                    "text": "Excellent"
+                },
+                {
+                    "customers_lost_over": 0,
+                    "text": "Perfect"
+                },
+                {
+                    "text": "Incredible"
+                }
+            ],
+            "is_snacks_available": false,
+            "is_bonus_level": true
+        },
+        "LevelNorecipes": {
+            "base": "LevelRecipesDay"
+        },
+        "LevelTapper": {
+            "base": "LevelRecipesDay",
+            "recipes": [],
+            "customers_params": [],
+            "max_fails_count": 5,
+            "plates_percent": 15,
+            "ranks": [
+                {
+                    "fails_over": 3,
+                    "text": "Poor"
+                },
+                {
+                    "fails_over": 2,
+                    "text": "Good"
+                },
+                {
+                    "fails_over": 1,
+                    "text": "Excellent"
+                },
+                {
+                    "fails_over": 0,
+                    "text": "Perfect"
+                },
+                {
+                    "text": "Incredible"
+                }
+            ],
+            "claw_count": 0,
+            "can_player_return_ingredients": false,
+            "is_customers_waiting": false,
+            "is_customers_clickable": false,
+            "is_combo_allowed": false,
+            "is_customers_with_tray": false,
+            "is_sauces_available": false,
+            "penalty_cost": 17.28
+        },
+        "LevelBrokenConveyors": {
+            "base": "Level",
+            "increase_time": 20000,
+            "increase_steps": [
+                {
+                    "period_inc": 0,
+                    "speed_inc": 0
+                },
+                {
+                    "period_inc": -500,
+                    "speed_inc": 2
+                },
+                {
+                    "period_inc": -1000,
+                    "speed_inc": 5
+                },
+                {
+                    "period_inc": -1500,
+                    "speed_inc": 8
+                },
+                {
+                    "period_inc": -1500,
+                    "speed_inc": 11
+                }
+            ],
+            "ranks": [
+                {
+                    "customers_lost_over": 10,
+                    "ingredients_lost_over": 10,
+                    "text": "Poor"
+                },
+                {
+                    "customers_lost_over": 3,
+                    "ingredients_lost_over": 7,
+                    "text": "Good"
+                },
+                {
+                    "customers_lost_over": 1,
+                    "ingredients_lost_over": 5,
+                    "text": "Excellent"
+                },
+                {
+                    "customers_lost_over": 0,
+                    "ingredients_lost_over": 2,
+                    "text": "Perfect"
+                },
+                {
+                    "text": "Incredible"
+                }
+            ],
+            "claw_count": 0,
+            "trash_bin_usage_cost_factor": 0,
+            "can_player_return_ingredients": false,
+            "is_paper_boxes_unlimited": true,
+            "is_snacks_available": false,
+            "is_bonus_level": true
+        },
+        "LevelCatchIngredients": {
+            "base": "LevelBrokenConveyors",
+            "ingredients": [],
+            "ingredients_count": 0,
+            "max_player_sandwich_length": 3,
+            "increase_steps": [
+                {
+                    "period_inc": 0,
+                    "speed_inc": 0
+                },
+                {
+                    "period_inc": -500,
+                    "speed_inc": 1
+                },
+                {
+                    "period_inc": -1000,
+                    "speed_inc": 5
+                },
+                {
+                    "period_inc": -1500,
+                    "speed_inc": 9
+                },
+                {
+                    "period_inc": -1500,
+                    "speed_inc": 13
+                }
+            ],
+            "ranks": [
+                {
+                    "ingredients_lost_over": 10,
+                    "text": "Poor"
+                },
+                {
+                    "ingredients_lost_over": 7,
+                    "text": "Good"
+                },
+                {
+                    "ingredients_lost_over": 3,
+                    "text": "Excellent"
+                },
+                {
+                    "ingredients_lost_over": 0,
+                    "text": "Perfect"
+                },
+                {
+                    "text": "Incredible"
+                }
+            ]
+        },
+        "Level_Tutorial": {
+            "base": "Level",
+            "is_allow_claw_button": false,
+            "is_allow_skip_tutorial_button": true,
+            "tutorial_customers": null,
+            "tutorial_ingredients": null
+        },
+        "Level_ClawTutorial": {
+            "base": "Level_Tutorial",
+            "is_allow_claw_button": true,
+            "tutorial_customers": [
+                {
+                    "customer": "Younggirl",
+                    "recipe": "Bacon_Toast"
+                }
+            ],
+            "tutorial_ingredients": {
+                "Burger": [
+                    "BreadBottom",
+                    "BreadTop",
+                    "Beef",
+                    "Bacon",
+                    "Chicken",
+                    "FishCake",
+                    "Pickles",
+                    "Tomato",
+                    "Lettuce",
+                    "Cheese",
+                    "Onion",
+                    "Egg"
+                ],
+                "Lasagna": [
+                    "LasagnaBeef",
+                    "LasagnaBacon",
+                    "LasagnaMozarella",
+                    "LasagnaFish",
+                    "LasagnaMushrooms",
+                    "LasagnaTomatoes",
+                    "LasagnaSpinach",
+                    "LasagnaOnion",
+                    "LasagnaNoodle"
+                ],
+                "Cake": [
+                    "Chocolate",
+                    "Bilberry",
+                    "Rose",
+                    "Jelly",
+                    "Strawberry",
+                    "Cherry",
+                    "Kivi",
+                    "Oranges",
+                    "Waffle"
+                ]
+            },
+            "tutorial_trash_ingredients_count": 2,
+            "conveyors_fill_count": 6
+        }
+    },
+    "cafes": {
+        "Cafe_01": {
+            "levels": [
+                {
+                    "id": "Level_01_01",
+                    "base": "Level_Tutorial",
+                    "layout": "Level_Tutorial",
+                    "type": "Burger",
+                    "min_score_increase": -5,
+                    "tutorial_customers": [
+                        {
+                            "customer": "Younggirl",
+                            "recipe": "Hamburger"
+                        },
+                        {
+                            "customer": "Younggirl",
+                            "recipe": "Chickburger"
+                        },
+                        {
+                            "customer": "Younggirl",
+                            "recipe": "Sandwich"
+                        },
+                        {
+                            "customer": "Younggirl",
+                            "recipe": "Fishburger"
+                        },
+                        {
+                            "customer": "Younggirl",
+                            "recipe": "Hamburger"
+                        }
+                    ],
+                    "tutorial_ingredients": [
+                        [
+                            "BreadBottom",
+                            "Beef",
+                            "BreadTop",
+                            "Chicken",
+                            "BreadBottom",
+                            "BreadTop",
+                            "BreadBottom",
+                            "BreadTop",
+                            "BreadBottom",
+                            "Beef"
+                        ],
+                        [
+                            "FishCake",
+                            "BreadTop",
+                            "BreadBottom",
+                            "Bacon",
+                            "BreadTop"
+                        ]
+                    ],
+                    "tutorial_ingredients_hard": [
+                        [
+                            "BreadBottom",
+                            "Beef",
+                            "BreadTop",
+                            "Chicken",
+                            "BreadBottom",
+                            "BreadTop",
+                            "BreadBottom"
+                        ],
+                        [
+                            "FishCake",
+                            "BreadTop",
+                            "BreadBottom",
+                            "Bacon",
+                            "BreadTop"
+                        ]
+                    ],
+                    "table_upgrade_level": 0,
+                    "min_score_value": 0,
+                    "customers_time_interval": 3000,
+                    "recipes_params": [],
+                    "claw_count": 0,
+                    "is_customers_waiting": false,
+                    "is_combo_allowed": false,
+                    "is_sauces_available": false,
+                    "is_snacks_available": false,
+                    "is_allow_skip_tutorial_button": false
+                },
+                {
+                    "id": "Level_01_02",
+                    "base": "Level",
+                    "layout": "Level_01_01_01",
+                    "type": "Burger",
+                    "customers_time_interval": 4200,
+                    "min_score_increase": -5,
+                    "recipes_params": [
+                        {
+                            "recipe": "Bacon_Toast",
+                            "count": 4
+                        },
+                        {
+                            "recipe": "Cheese_Toast",
+                            "count": 4
+                        }
+                    ],
+                    "bonus_recipes_params": [
+                        "Cheese_Toast",
+                        "Bacon_Toast"
+                    ],
+                    "is_sauces_available": false,
+                    "is_snacks_available": false,
+                    "ranks": [
+                        {
+                            "customers_lost_over": 2,
+                            "expenditures_over_factor": 10,
+                            "text": "Poor"
+                        },
+                        {
+                            "customers_lost_over": 1,
+                            "expenditures_over_factor": 4,
+                            "text": "Good"
+                        },
+                        {
+                            "customers_lost_over": 0,
+                            "expenditures_over_factor": 2,
+                            "text": "Excellent"
+                        },
+                        {
+                            "expenditures_over_factor": 1,
+                            "text": "Perfect"
+                        },
+                        {
+                            "text": "Incredible"
+                        }
+                    ]
+                },
+                {
+                    "id": "Level_01_03",
+                    "base": "Level_Tutorial",
+                    "layout": "Level_01_01_02",
+                    "type": "Burger",
+                    "customers_time_interval": 4200,
+                    "min_score_increase": -0.5,
+                    "recipes_params": [
+                        {
+                            "recipe": "Cheese_Toast",
+                            "count": 4
+                        },
+                        {
+                            "recipe": "Bacon_Toast",
+                            "count": 4
+                        },
+                        {
+                            "recipe": "Morning_Egg",
+                            "count": 4
+                        }
+                    ],
+                    "bonus_recipes_params": [
+                        "Cheese_Toast",
+                        "Bacon_Toast",
+                        "Morning_Egg"
+                    ],
+                    "is_sauces_available": true,
+                    "is_snacks_available": false,
+                    "ranks": [
+                        {
+                            "customers_lost_over": 2,
+                            "expenditures_over_factor": 10,
+                            "text": "Poor"
+                        },
+                        {
+                            "customers_lost_over": 1,
+                            "expenditures_over_factor": 4,
+                            "text": "Good"
+                        },
+                        {
+                            "customers_lost_over": 0,
+                            "expenditures_over_factor": 2,
+                            "text": "Excellent",
+                            "customers_to_consumes_over_factor": 0.4
+                        },
+                        {
+                            "expenditures_over_factor": 1,
+                            "text": "Perfect",
+                            "customers_to_consumes_over_factor": 0.6
+                        },
+                        {
+                            "text": "Incredible"
+                        }
+                    ],
+                    "difficulty_level_to_unreachable_objects": [
+                        [
+                            "BoxClaw"
+                        ],
+                        [
+                            "BoxClaw"
+                        ],
+                        [
+                            "Plate4",
+                            "TrashBin",
+                            "BoxClaw",
+                            "PaperBoxes"
+                        ]
+                    ],
+                    "sauces": [],
+                    "tutorial_sauce_bottle_capacity": 3,
+                    "tutorial_customers": [
+                        {
+                            "customer": "Younggirl",
+                            "recipe": "Bacon_Toast"
+                        }
+                    ],
+                    "tutorial_ingredients": [
+                        [
+                            "Bacon"
+                        ],
+                        [
+                            "BreadBottom"
+                        ]
+                    ]
+                },
+                {
+                    "id": "Level_01_04",
+                    "base": "Level_Tutorial",
+                    "layout": "Level_01_03",
+                    "type": "Burger",
+                    "customers_time_interval": 4200,
+                    "min_score_increase": -0.4,
+                    "recipes_params": [
+                        {
+                            "recipe": "Morning_Egg",
+                            "count": 4
+                        },
+                        {
+                            "recipe": "Fish_Snack",
+                            "count": 4
+                        },
+                        {
+                            "recipe": "Bacon_Toast",
+                            "count": 6
+                        }
+                    ],
+                    "bonus_recipes_params": [
+                        "Morning_Egg",
+                        "Fish_Snack",
+                        "Bacon_Toast"
+                    ],
+                    "difficulty_level_to_unreachable_objects": [
+                        [
+                            "BoxClaw"
+                        ],
+                        [
+                            "BoxClaw"
+                        ],
+                        [
+                            "Plate4",
+                            "TrashBin",
+                            "BoxClaw",
+                            "PaperBoxes"
+                        ]
+                    ],
+                    "tutorial_customers": [
+                        {
+                            "customer": "Yappie",
+                            "recipe": "Morning_Egg"
+                        }
+                    ],
+                    "tutorial_ingredients": [
+                        [
+                            "Egg"
+                        ],
+                        [
+                            "BreadBottom"
+                        ]
+                    ],
+                    "snacks": [
+                        {
+                            "name": "ContainerSoftDrinks23",
+                            "quantity": 4
+                        },
+                        {
+                            "name": "ContainerIcecream20",
+                            "quantity": 4
+                        },
+                        {
+                            "name": "ContainerFrenchFries25",
+                            "quantity": 4
+                        }
+                    ],
+                    "tutorial_snack_container_quantity": 1,
+                    "next": [
+                        "Level_02_01",
+                        "Level_03_01"
+                    ]
+                }
+            ]
+        },
+        "Cafe_02": {
+            "levels": [
+                {
+                    "id": "Level_02_01",
+                    "base": "Level_Tutorial",
+                    "layout": "Level_01_01",
+                    "type": "Burger",
+                    "customers_time_interval": 4200,
+                    "recipes_params": [
+                        {
+                            "recipe": "Hamburger",
+                            "count": 4
+                        },
+                        {
+                            "recipe": "Sandwich",
+                            "count": 5
+                        }
+                    ],
+                    "bonus_recipes_params": [
+                        "Hamburger",
+                        "Sandwich"
+                    ],
+                    "difficulty_level_to_unreachable_objects": [
+                        [
+                            "BoxClaw"
+                        ],
+                        [
+                            "BoxClaw"
+                        ],
+                        [
+                            "Plate4",
+                            "TrashBin",
+                            "BoxClaw",
+                            "PaperBoxes"
+                        ]
+                    ],
+                    "tutorial_customers": [
+                        {
+                            "customer": "Younggirl",
+                            "recipe": "Hamburger"
+                        }
+                    ],
+                    "tutorial_ingredients": [
+                        [
+                            "Beef",
+                            "BreadBottom",
+                            "BreadTop"
+                        ],
+                        []
+                    ],
+                    "tutorial_paper_boxes_quantity": 2
+                },
+                {
+                    "id": "Level_02_02",
+                    "base": "Level",
+                    "layout": "Level_01_02",
+                    "type": "Burger",
+                    "customers_time_interval": 4200,
+                    "recipes_params": [
+                        {
+                            "recipe": "Hamburger",
+                            "count": 5
+                        },
+                        {
+                            "recipe": "Sandwich",
+                            "count": 5
+                        },
+                        {
+                            "recipe": "Fishburger",
+                            "count": 3
+                        }
+                    ],
+                    "bonus_recipes_params": [
+                        "Hamburger",
+                        "Sandwich",
+                        "Fishburger"
+                    ],
+                    "difficulty_level_to_unreachable_objects": [
+                        [
+                            "BoxClaw"
+                        ],
+                        [
+                            "BoxClaw"
+                        ],
+                        [
+                            "Plate4",
+                            "TrashBin",
+                            "BoxClaw",
+                            "PaperBoxes"
+                        ]
+                    ]
+                },
+                {
+                    "id": "Level_02_03",
+                    "base": "Level",
+                    "layout": "Level_01_03",
+                    "type": "Burger",
+                    "customers_time_interval": 4200,
+                    "recipes_params": [
+                        {
+                            "recipe": "Eggburger",
+                            "count": 5
+                        },
+                        {
+                            "recipe": "Fishburger",
+                            "count": 5
+                        },
+                        {
+                            "recipe": "Chickburger",
+                            "count": 5
+                        }
+                    ],
+                    "bonus_recipes_params": [
+                        "Eggburger",
+                        "Fishburger",
+                        "Chickburger"
+                    ],
+                    "difficulty_level_to_unreachable_objects": [
+                        [
+                            "BoxClaw"
+                        ],
+                        [
+                            "BoxClaw"
+                        ],
+                        [
+                            "Plate4",
+                            "TrashBin",
+                            "BoxClaw",
+                            "PaperBoxes"
+                        ]
+                    ]
+                },
+                {
+                    "id": "Level_Tapper_Burger_02",
+                    "base": "LevelTapper",
+                    "layout": "Level_Tapper_Burger02",
+                    "type": "Burger",
+                    "tutorial_customer_class": "Geek",
+                    "customers_time_interval": 1500,
+                    "customers_params": [
+                        {
+                            "class": "Yappie",
+                            "count": 10
+                        },
+                        {
+                            "class": "Geek",
+                            "count": 10
+                        },
+                        {
+                            "class": "Deliveryboy",
+                            "count": 10
+                        }
+                    ],
+                    "objects_params": {
+                        "CustomersQueueTapper10": {
+                            "customers_step_period": 5000
+                        },
+                        "CustomersQueueTapper11": {
+                            "max_customers": 2
+                        },
+                        "ConveyorSandwiches12": {
+                            "recipe": "Chickburger1"
+                        },
+                        "ConveyorSandwiches2": {
+                            "recipe": "Chickburger1"
+                        },
+                        "ConveyorSandwiches9": {
+                            "recipe": "Chickburger1"
+                        },
+                        "ConveyorSandwiches18": {
+                            "recipe": "Chickburger1"
+                        }
+                    },
+                    "next": [
+                        "Level_05_01"
+                    ]
+                }
+            ]
+        },
+        "Cafe_03": {
+            "levels": [
+                {
+                    "id": "Level_03_01",
+                    "base": "Level_02_01",
+                    "layout": "Level_02_01",
+                    "type": "Cake",
+                    "customers_time_interval": 4200,
+                    "recipes_params": [
+                        {
+                            "recipe": "Cake1",
+                            "count": 4
+                        },
+                        {
+                            "recipe": "Cake2",
+                            "count": 5
+                        }
+                    ],
+                    "bonus_recipes_params": [
+                        "Cake2",
+                        "Cake1"
+                    ],
+                    "difficulty_level_to_unreachable_objects": [
+                        [
+                            "BoxClaw"
+                        ],
+                        [
+                            "BoxClaw"
+                        ],
+                        [
+                            "Plate4",
+                            "TrashBin",
+                            "BoxClaw",
+                            "PaperBoxes"
+                        ]
+                    ],
+                    "tutorial_customers": [
+                        {
+                            "customer": "Yappie",
+                            "recipe": "Cake1"
+                        }
+                    ],
+                    "tutorial_ingredients": [
+                        [
+                            "Chocolate",
+                            "Waffle"
+                        ],
+                        []
+                    ]
+                },
+                {
+                    "id": "Level_03_02",
+                    "base": "Level",
+                    "layout": "Level_02_02",
+                    "type": "Cake",
+                    "customers_time_interval": 4200,
+                    "recipes_params": [
+                        {
+                            "recipe": "Cake1",
+                            "count": 4
+                        },
+                        {
+                            "recipe": "Cake2",
+                            "count": 4
+                        },
+                        {
+                            "recipe": "Cake3",
+                            "count": 4
+                        }
+                    ],
+                    "bonus_recipes_params": [
+                        "Cake1",
+                        "Cake2",
+                        "Cake3"
+                    ],
+                    "difficulty_level_to_unreachable_objects": [
+                        [
+                            "BoxClaw"
+                        ],
+                        [
+                            "BoxClaw"
+                        ],
+                        [
+                            "Plate4",
+                            "TrashBin",
+                            "BoxClaw",
+                            "PaperBoxes"
+                        ]
+                    ]
+                },
+                {
+                    "id": "Level_03_03",
+                    "base": "Level",
+                    "layout": "Level_02_03",
+                    "type": "Cake",
+                    "customers_time_interval": 4500,
+                    "recipes_params": [
+                        {
+                            "recipe": "Cake2",
+                            "count": 5
+                        },
+                        {
+                            "recipe": "Cake3",
+                            "count": 5
+                        },
+                        {
+                            "recipe": "Cake6",
+                            "count": 5
+                        }
+                    ],
+                    "bonus_recipes_params": [
+                        "Cake2",
+                        "Cake3",
+                        "Cake6"
+                    ],
+                    "difficulty_level_to_unreachable_objects": [
+                        [
+                            "BoxClaw"
+                        ],
+                        [
+                            "BoxClaw"
+                        ],
+                        [
+                            "Plate4",
+                            "TrashBin",
+                            "BoxClaw",
+                            "PaperBoxes"
+                        ]
+                    ]
+                }
+            ]
+        },
+        "Cafe_04": {
+            "levels": [
+                {
+                    "id": "Level_04_01",
+                    "base": "Level_ClawTutorial",
+                    "layout": "Level_02_01",
+                    "type": "Cake",
+                    "customers_time_interval": 4500,
+                    "recipes_params": [
+                        {
+                            "recipe": "Cake9",
+                            "count": 5
+                        },
+                        {
+                            "recipe": "Cake12",
+                            "count": 5
+                        }
+                    ],
+                    "bonus_recipes_params": [
+                        "Cake9",
+                        "Cake12"
+                    ],
+                    "tutorial_customers": [
+                        {
+                            "customer": "Deliveryboy",
+                            "recipe": "Cake9"
+                        }
+                    ]
+                },
+                {
+                    "id": "Level_04_02",
+                    "base": "Level_ClawTutorial",
+                    "layout": "Level_02_02",
+                    "type": "Cake",
+                    "customers_time_interval": 4500,
+                    "recipes_params": [
+                        {
+                            "recipe": "Cake9",
+                            "count": 4
+                        },
+                        {
+                            "recipe": "Cake11",
+                            "count": 4
+                        },
+                        {
+                            "recipe": "Cake12",
+                            "count": 5
+                        }
+                    ],
+                    "bonus_recipes_params": [
+                        "Cake9",
+                        "Cake11",
+                        "Cake12"
+                    ],
+                    "tutorial_customers": [
+                        {
+                            "customer": "Deliveryboy",
+                            "recipe": "Cake9"
+                        }
+                    ]
+                },
+                {
+                    "id": "Level_04_03",
+                    "base": "Level_ClawTutorial",
+                    "layout": "Level_02_03",
+                    "type": "Cake",
+                    "customers_time_interval": 4500,
+                    "recipes_params": [
+                        {
+                            "recipe": "Cake9",
+                            "count": 5
+                        },
+                        {
+                            "recipe": "Cake11",
+                            "count": 5
+                        },
+                        {
+                            "recipe": "Cake14",
+                            "count": 5
+                        }
+                    ],
+                    "bonus_recipes_params": [
+                        "Cake9",
+                        "Cake11",
+                        "Cake14"
+                    ],
+                    "tutorial_customers": [
+                        {
+                            "customer": "Deliveryboy",
+                            "recipe": "Cake9"
+                        }
+                    ]
+                },
+                {
+                    "id": "Level_Norecipes_Cake_04",
+                    "base": "LevelNorecipes",
+                    "type": "Cake",
+                    "customers_time_interval": 5000,
+                    "order_cost_factor": 2,
+                    "customers_params": [
+                        {
+                            "class": "Deliveryboy",
+                            "count": 7
+                        },
+                        {
+                            "class": "Geek",
+                            "count": 7
+                        },
+                        {
+                            "class": "Teenager",
+                            "count": 7
+                        }
+                    ],
+                    "recipes": [
+                        "Cake9",
+                        "Cake11",
+                        "Cake12"
+                    ],
+                    "next": [
+                        "Level_06_01"
+                    ]
+                }
+            ]
+        },
+        "Cafe_05": {
+            "levels": [
+                {
+                    "id": "Level_05_01",
+                    "base": "Level_ClawTutorial",
+                    "layout": "Level_03_01",
+                    "type": "Lasagna",
+                    "customers_time_interval": 4200,
+                    "recipes_params": [
+                        {
+                            "recipe": "Lasagna1",
+                            "count": 4
+                        },
+                        {
+                            "recipe": "Lasagna5",
+                            "count": 5
+                        }
+                    ],
+                    "bonus_recipes_params": [
+                        "Lasagna1",
+                        "Lasagna5"
+                    ],
+                    "tutorial_customers": [
+                        {
+                            "customer": "Deliveryboy",
+                            "recipe": "Lasagna1"
+                        }
+                    ]
+                },
+                {
+                    "id": "Level_05_02",
+                    "base": "Level_ClawTutorial",
+                    "layout": "Level_03_02",
+                    "type": "Lasagna",
+                    "customers_time_interval": 4200,
+                    "recipes_params": [
+                        {
+                            "recipe": "Lasagna1",
+                            "count": 4
+                        },
+                        {
+                            "recipe": "Lasagna2",
+                            "count": 4
+                        },
+                        {
+                            "recipe": "Lasagna5",
+                            "count": 4
+                        }
+                    ],
+                    "bonus_recipes_params": [
+                        "Lasagna1",
+                        "Lasagna2",
+                        "Lasagna5"
+                    ],
+                    "tutorial_customers": [
+                        {
+                            "customer": "Deliveryboy",
+                            "recipe": "Lasagna1"
+                        }
+                    ]
+                },
+                {
+                    "id": "Level_05_03",
+                    "base": "Level_ClawTutorial",
+                    "layout": "Level_03_03",
+                    "type": "Lasagna",
+                    "customers_time_interval": 4200,
+                    "recipes_params": [
+                        {
+                            "recipe": "Lasagna1",
+                            "count": 5
+                        },
+                        {
+                            "recipe": "Lasagna2",
+                            "count": 5
+                        },
+                        {
+                            "recipe": "Lasagna3",
+                            "count": 5
+                        }
+                    ],
+                    "bonus_recipes_params": [
+                        "Lasagna1",
+                        "Lasagna2",
+                        "Lasagna3"
+                    ],
+                    "tutorial_customers": [
+                        {
+                            "customer": "Deliveryboy",
+                            "recipe": "Lasagna1"
+                        }
+                    ]
+                }
+            ]
+        },
+        "Cafe_06": {
+            "levels": [
+                {
+                    "id": "Level_06_01",
+                    "base": "Level_ClawTutorial",
+                    "layout": "Level_03_01",
+                    "type": "Lasagna",
+                    "customers_time_interval": 4200,
+                    "recipes_params": [
+                        {
+                            "recipe": "Lasagna8",
+                            "count": 6
+                        },
+                        {
+                            "recipe": "Lasagna10",
+                            "count": 5
+                        }
+                    ],
+                    "bonus_recipes_params": [
+                        "Lasagna8",
+                        "Lasagna10"
+                    ],
+                    "tutorial_customers": [
+                        {
+                            "customer": "Deliveryboy",
+                            "recipe": "Lasagna8"
+                        }
+                    ]
+                },
+                {
+                    "id": "Level_06_02",
+                    "base": "Level_ClawTutorial",
+                    "layout": "Level_03_02",
+                    "type": "Lasagna",
+                    "customers_time_interval": 4200,
+                    "recipes_params": [
+                        {
+                            "recipe": "Lasagna8",
+                            "count": 4
+                        },
+                        {
+                            "recipe": "Lasagna9",
+                            "count": 6
+                        },
+                        {
+                            "recipe": "Lasagna10",
+                            "count": 4
+                        }
+                    ],
+                    "bonus_recipes_params": [
+                        "Lasagna8",
+                        "Lasagna9",
+                        "Lasagna10"
+                    ],
+                    "tutorial_customers": [
+                        {
+                            "customer": "Deliveryboy",
+                            "recipe": "Lasagna8"
+                        }
+                    ]
+                },
+                {
+                    "id": "Level_06_03",
+                    "base": "Level_ClawTutorial",
+                    "layout": "Level_03_03",
+                    "type": "Lasagna",
+                    "customers_time_interval": 4200,
+                    "recipes_params": [
+                        {
+                            "recipe": "Lasagna9",
+                            "count": 5
+                        },
+                        {
+                            "recipe": "Lasagna14",
+                            "count": 5
+                        },
+                        {
+                            "recipe": "Lasagna8",
+                            "count": 5
+                        },
+                        {
+                            "recipe": "Lasagna14",
+                            "count": 1
+                        }
+                    ],
+                    "bonus_recipes_params": [
+                        "Lasagna8",
+                        "Lasagna9",
+                        "Lasagna14"
+                    ],
+                    "tutorial_customers": [
+                        {
+                            "customer": "Deliveryboy",
+                            "recipe": "Lasagna8"
+                        }
+                    ]
+                },
+                {
+                    "id": "Level_Tapper_Lasagna_06",
+                    "base": "LevelTapper",
+                    "layout": "Level_Tapper_Lasagna06",
+                    "type": "Lasagna",
+                    "customers_time_interval": 1400,
+                    "order_cost_factor": 1.9,
+                    "customers_params": [
+                        {
+                            "class": "Younggirl",
+                            "count": 13
+                        },
+                        {
+                            "class": "Geek",
+                            "count": 13
+                        },
+                        {
+                            "class": "Teenager",
+                            "count": 13
+                        }
+                    ],
+                    "objects_params": {
+                        "CustomersQueueTapper10": {
+                            "customers_step_period": 5000
+                        },
+                        "CustomersQueueTapper11": {
+                            "max_customers": 2
+                        },
+                        "ConveyorSandwiches12": {
+                            "recipe": "Food_o_Morning1"
+                        },
+                        "ConveyorSandwiches2": {
+                            "recipe": "Food_o_Morning1"
+                        },
+                        "ConveyorSandwiches9": {
+                            "recipe": "Food_o_Morning1"
+                        },
+                        "ConveyorSandwiches18": {
+                            "recipe": "Food_o_Morning1"
+                        }
+                    },
+                    "penalty_cost": 46.52,
+                    "next": [
+                        "Level_07_01",
+                        "Level_09_01"
+                    ]
+                }
+            ]
+        },
+        "Cafe_07": {
+            "levels": [
+                {
+                    "id": "Level_07_01",
+                    "base": "Level_ClawTutorial",
+                    "layout": "Level_04_01",
+                    "type": "Burger",
+                    "customers_time_interval": 4500,
+                    "recipes_params": [
+                        {
+                            "recipe": "Hamburger",
+                            "count": 5
+                        },
+                        {
+                            "recipe": "Fishburger",
+                            "count": 6
+                        },
+                        {
+                            "recipe": "Chickburger",
+                            "count": 5
+                        }
+                    ],
+                    "bonus_recipes_params": [
+                        "Hamburger",
+                        "Fishburger",
+                        "Chickburger"
+                    ],
+                    "tutorial_customers": [
+                        {
+                            "customer": "Younggirl",
+                            "recipe": "Chickburger"
+                        }
+                    ]
+                },
+                {
+                    "id": "Level_07_02",
+                    "base": "Level_ClawTutorial",
+                    "layout": "Level_04_01",
+                    "type": "Burger",
+                    "customers_time_interval": 4500,
+                    "recipes_params": [
+                        {
+                            "recipe": "Breakfast_Sandwich",
+                            "count": 8
+                        },
+                        {
+                            "recipe": "Meal_o_Meat",
+                            "count": 7
+                        }
+                    ],
+                    "bonus_recipes_params": [
+                        "Breakfast_Sandwich",
+                        "Meal_o_Meat"
+                    ],
+                    "tutorial_customers": [
+                        {
+                            "customer": "Oldwoman",
+                            "recipe": "Breakfast_Sandwich"
+                        }
+                    ]
+                },
+                {
+                    "id": "Level_07_03",
+                    "base": "Level_ClawTutorial",
+                    "layout": "Level_04_02",
+                    "type": "Burger",
+                    "customers_time_interval": 4500,
+                    "recipes_params": [
+                        {
+                            "recipe": "Meal_o_Meat",
+                            "count": 6
+                        },
+                        {
+                            "recipe": "Breakfast_Sandwich",
+                            "count": 6
+                        },
+                        {
+                            "recipe": "Fresh_o_Fish",
+                            "count": 5
+                        }
+                    ],
+                    "bonus_recipes_params": [
+                        "Meal_o_Meat",
+                        "Breakfast_Sandwich",
+                        "Fresh_o_Fish"
+                    ],
+                    "tutorial_customers": [
+                        {
+                            "customer": "Oldwoman",
+                            "recipe": "Breakfast_Sandwich"
+                        }
+                    ]
+                }
+            ]
+        },
+        "Cafe_08": {
+            "levels": [
+                {
+                    "id": "Level_08_01",
+                    "base": "Level_ClawTutorial",
+                    "layout": "Level_04_01",
+                    "type": "Burger",
+                    "customers_time_interval": 4500,
+                    "recipes_params": [
+                        {
+                            "recipe": "Breakfast_Sandwich",
+                            "count": 6
+                        },
+                        {
+                            "recipe": "Fresh_o_Fish",
+                            "count": 6
+                        },
+                        {
+                            "recipe": "Classic_Breakfast",
+                            "count": 6
+                        }
+                    ],
+                    "bonus_recipes_params": [
+                        "Breakfast_Sandwich",
+                        "Fresh_o_Fish",
+                        "Classic_Breakfast"
+                    ],
+                    "tutorial_customers": [
+                        {
+                            "customer": "Deliveryboy",
+                            "recipe": "Classic_Breakfast"
+                        }
+                    ]
+                },
+                {
+                    "id": "Level_08_02",
+                    "base": "Level_ClawTutorial",
+                    "layout": "Level_04_01",
+                    "type": "Burger",
+                    "customers_time_interval": 4500,
+                    "recipes_params": [
+                        {
+                            "recipe": "Fresh_o_Fish",
+                            "count": 7
+                        },
+                        {
+                            "recipe": "Classic_Breakfast",
+                            "count": 7
+                        },
+                        {
+                            "recipe": "Dish_o_Fish",
+                            "count": 7
+                        }
+                    ],
+                    "bonus_recipes_params": [
+                        "Fresh_o_Fish",
+                        "Classic_Breakfast",
+                        "Dish_o_Fish"
+                    ],
+                    "tutorial_customers": [
+                        {
+                            "customer": "Deliveryboy",
+                            "recipe": "Classic_Breakfast"
+                        }
+                    ]
+                },
+                {
+                    "id": "Level_08_03",
+                    "base": "Level_ClawTutorial",
+                    "layout": "Level_04_02",
+                    "type": "Burger",
+                    "customers_time_interval": 4500,
+                    "recipes_params": [
+                        {
+                            "recipe": "Classic_Breakfast",
+                            "count": 8
+                        },
+                        {
+                            "recipe": "Breakfast_Sandwich",
+                            "count": 8
+                        },
+                        {
+                            "recipe": "Dish_o_Fish",
+                            "count": 8
+                        }
+                    ],
+                    "bonus_recipes_params": [
+                        "Classic_Breakfast",
+                        "Breakfast_Sandwich",
+                        "Dish_o_Fish"
+                    ],
+                    "tutorial_customers": [
+                        {
+                            "customer": "Deliveryboy",
+                            "recipe": "Classic_Breakfast"
+                        }
+                    ]
+                },
+                {
+                    "id": "Level_BrokenConveyors_Burger_08",
+                    "base": "LevelBrokenConveyors",
+                    "layout": "Level_BrokenConveyors_Burger08",
+                    "type": "Burger",
+                    "customers_time_interval": 8000,
+                    "order_cost_factor": 3.3,
+                    "recipes_params": [
+                        {
+                            "recipe": "Classic_Breakfast",
+                            "count": 15
+                        }
+                    ],
+                    "objects_params": {
+                        "Conveyor0322": {
+                            "ingredients_speed": 38,
+                            "ingredients_period": 12000,
+                            "start_time": 9000
+                        },
+                        "Conveyor0321": {
+                            "ingredients_speed": 38,
+                            "ingredients_period": 7000,
+                            "start_time": 5000
+                        },
+                        "Conveyor0311": {
+                            "ingredients_speed": 38,
+                            "ingredients_period": 10500,
+                            "start_time": 25000
+                        },
+                        "Conveyor034": {
+                            "ingredients_speed": 38,
+                            "ingredients_period": 8000,
+                            "start_time": 11000
+                        },
+                        "Conveyor033": {
+                            "ingredients_speed": 38,
+                            "ingredients_period": 13500,
+                            "start_time": 15000
+                        },
+                        "Conveyor032": {
+                            "ingredients_speed": 38,
+                            "ingredients_period": 16000,
+                            "start_time": 1000
+                        }
+                    },
+                    "difficulty_level_to_unreachable_objects": [
+                        [],
+                        [],
+                        [
+                            "Plate4",
+                            "BoxClaw",
+                            "PaperBoxes"
+                        ]
+                    ],
+                    "tutorial_conveyor_period": 10500,
+                    "tutorial_customer_class": "Teenager",
+                    "tutorial_customer_recipe": "Classic_Breakfast",
+                    "tutorial_customer_class_hard": "Teenager",
+                    "tutorial_customer_recipe_hard": "Classic_Breakfast",
+                    "next": [
+                        "Level_10_01"
+                    ]
+                }
+            ]
+        },
+        "Cafe_09": {
+            "levels": [
+                {
+                    "id": "Level_09_01",
+                    "base": "Level_ClawTutorial",
+                    "layout": "Level_05_01",
+                    "type": "Cake",
+                    "customers_time_interval": 4500,
+                    "recipes_params": [
+                        {
+                            "recipe": "Cake15",
+                            "count": 8
+                        },
+                        {
+                            "recipe": "Cake16",
+                            "count": 8
+                        }
+                    ],
+                    "bonus_recipes_params": [
+                        "Cake15",
+                        "Cake16"
+                    ],
+                    "tutorial_customers": [
+                        {
+                            "customer": "Teenager",
+                            "recipe": "Cake16"
+                        }
+                    ]
+                },
+                {
+                    "id": "Level_09_02",
+                    "base": "Level_ClawTutorial",
+                    "layout": "Level_05_01",
+                    "type": "Cake",
+                    "customers_time_interval": 4500,
+                    "recipes_params": [
+                        {
+                            "recipe": "Cake15",
+                            "count": 7
+                        },
+                        {
+                            "recipe": "Cake16",
+                            "count": 7
+                        },
+                        {
+                            "recipe": "Cake20",
+                            "count": 6
+                        }
+                    ],
+                    "bonus_recipes_params": [
+                        "Cake15",
+                        "Cake16",
+                        "Cake20"
+                    ],
+                    "tutorial_customers": [
+                        {
+                            "customer": "Teenager",
+                            "recipe": "Cake16"
+                        }
+                    ]
+                },
+                {
+                    "id": "Level_09_03",
+                    "base": "Level_ClawTutorial",
+                    "layout": "Level_05_02",
+                    "type": "Cake",
+                    "customers_time_interval": 4500,
+                    "recipes_params": [
+                        {
+                            "recipe": "Cake16",
+                            "count": 7
+                        },
+                        {
+                            "recipe": "Cake17",
+                            "count": 7
+                        },
+                        {
+                            "recipe": "Cake20",
+                            "count": 7
+                        }
+                    ],
+                    "bonus_recipes_params": [
+                        "Cake16",
+                        "Cake17",
+                        "Cake20"
+                    ],
+                    "tutorial_customers": [
+                        {
+                            "customer": "Teenager",
+                            "recipe": "Cake16"
+                        }
+                    ]
+                }
+            ]
+        },
+        "Cafe_10": {
+            "levels": [
+                {
+                    "id": "Level_10_01",
+                    "base": "Level_ClawTutorial",
+                    "layout": "Level_05_01",
+                    "type": "Cake",
+                    "customers_time_interval": 4500,
+                    "recipes_params": [
+                        {
+                            "recipe": "Cake17",
+                            "count": 7
+                        },
+                        {
+                            "recipe": "Cake20",
+                            "count": 7
+                        },
+                        {
+                            "recipe": "Cake21",
+                            "count": 7
+                        }
+                    ],
+                    "bonus_recipes_params": [
+                        "Cake17",
+                        "Cake20",
+                        "Cake21"
+                    ],
+                    "tutorial_customers": [
+                        {
+                            "customer": "Geek",
+                            "recipe": "Cake21"
+                        }
+                    ]
+                },
+                {
+                    "id": "Level_10_02",
+                    "base": "Level_ClawTutorial",
+                    "layout": "Level_05_01",
+                    "type": "Cake",
+                    "customers_time_interval": 4500,
+                    "recipes_params": [
+                        {
+                            "recipe": "Cake22",
+                            "count": 8
+                        },
+                        {
+                            "recipe": "Cake24",
+                            "count": 9
+                        }
+                    ],
+                    "bonus_recipes_params": [
+                        "Cake22",
+                        "Cake24"
+                    ],
+                    "tutorial_customers": [
+                        {
+                            "customer": "Yappie",
+                            "recipe": "Cake22"
+                        }
+                    ]
+                },
+                {
+                    "id": "Level_10_03",
+                    "base": "Level_ClawTutorial",
+                    "layout": "Level_05_02",
+                    "type": "Cake",
+                    "customers_time_interval": 4500,
+                    "recipes_params": [
+                        {
+                            "recipe": "Cake24",
+                            "count": 10
+                        },
+                        {
+                            "recipe": "Cake25",
+                            "count": 10
+                        }
+                    ],
+                    "bonus_recipes_params": [
+                        "Cake24",
+                        "Cake25"
+                    ],
+                    "tutorial_customers": [
+                        {
+                            "customer": "Younggirl",
+                            "recipe": "Cake24"
+                        }
+                    ]
+                },
+                {
+                    "id": "Level_Norecipes_Cake_10",
+                    "base": "LevelNorecipes",
+                    "type": "Cake",
+                    "customers_time_interval": 5000,
+                    "order_cost_factor": 1.8,
+                    "customers_params": [
+                        {
+                            "class": "Deliveryboy",
+                            "count": 7
+                        },
+                        {
+                            "class": "Geek",
+                            "count": 7
+                        },
+                        {
+                            "class": "Younggirl",
+                            "count": 7
+                        },
+                        {
+                            "class": "Nikki",
+                            "count": 1
+                        }
+                    ],
+                    "recipes": [
+                        "Cake22",
+                        "Cake24",
+                        "Cake25"
+                    ]
+                }
+            ]
+        },
+        "Cafe_11": {
+            "levels": [
+                {
+                    "id": "Level_11_01",
+                    "base": "Level_ClawTutorial",
+                    "layout": "Level_06_01",
+                    "type": "Lasagna",
+                    "customers_time_interval": 4500,
+                    "recipes_params": [
+                        {
+                            "recipe": "Lasagna18",
+                            "count": 8
+                        },
+                        {
+                            "recipe": "Lasagna20",
+                            "count": 8
+                        }
+                    ],
+                    "bonus_recipes_params": [
+                        "Lasagna18",
+                        "Lasagna20"
+                    ],
+                    "tutorial_customers": [
+                        {
+                            "customer": "Geek",
+                            "recipe": "Lasagna18"
+                        }
+                    ]
+                },
+                {
+                    "id": "Level_11_02",
+                    "base": "Level_ClawTutorial",
+                    "layout": "Level_06_01",
+                    "type": "Lasagna",
+                    "customers_time_interval": 4500,
+                    "recipes_params": [
+                        {
+                            "recipe": "Lasagna18",
+                            "count": 7
+                        },
+                        {
+                            "recipe": "Lasagna20",
+                            "count": 7
+                        },
+                        {
+                            "recipe": "Lasagna16",
+                            "count": 8
+                        }
+                    ],
+                    "bonus_recipes_params": [
+                        "Lasagna16",
+                        "Lasagna18",
+                        "Lasagna20"
+                    ],
+                    "tutorial_customers": [
+                        {
+                            "customer": "Mom",
+                            "recipe": "Lasagna16"
+                        }
+                    ]
+                },
+                {
+                    "id": "Level_11_03",
+                    "base": "Level_ClawTutorial",
+                    "layout": "Level_06_02",
+                    "type": "Lasagna",
+                    "customers_time_interval": 4500,
+                    "recipes_params": [
+                        {
+                            "recipe": "Lasagna18",
+                            "count": 9
+                        },
+                        {
+                            "recipe": "Lasagna16",
+                            "count": 8
+                        },
+                        {
+                            "recipe": "Lasagna15",
+                            "count": 8
+                        }
+                    ],
+                    "bonus_recipes_params": [
+                        "Lasagna15",
+                        "Lasagna16",
+                        "Lasagna18"
+                    ],
+                    "tutorial_customers": [
+                        {
+                            "customer": "Deliveryboy",
+                            "recipe": "Lasagna15"
+                        }
+                    ]
+                }
+            ]
+        },
+        "Cafe_12": {
+            "levels": [
+                {
+                    "id": "Level_12_01",
+                    "base": "Level_ClawTutorial",
+                    "layout": "Level_06_01",
+                    "type": "Lasagna",
+                    "customers_time_interval": 4500,
+                    "recipes_params": [
+                        {
+                            "recipe": "Lasagna15",
+                            "count": 9
+                        },
+                        {
+                            "recipe": "Lasagna16",
+                            "count": 8
+                        },
+                        {
+                            "recipe": "Lasagna17",
+                            "count": 10
+                        }
+                    ],
+                    "bonus_recipes_params": [
+                        "Lasagna15",
+                        "Lasagna16",
+                        "Lasagna17"
+                    ],
+                    "tutorial_customers": [
+                        {
+                            "customer": "Deliveryboy",
+                            "recipe": "Lasagna15"
+                        }
+                    ]
+                },
+                {
+                    "id": "Level_12_02",
+                    "base": "Level_ClawTutorial",
+                    "layout": "Level_06_01",
+                    "type": "Lasagna",
+                    "customers_time_interval": 4500,
+                    "recipes_params": [
+                        {
+                            "recipe": "Lasagna22",
+                            "count": 10
+                        },
+                        {
+                            "recipe": "Lasagna23",
+                            "count": 10
+                        }
+                    ],
+                    "bonus_recipes_params": [
+                        "Lasagna22",
+                        "Lasagna23"
+                    ],
+                    "tutorial_customers": [
+                        {
+                            "customer": "Yappie",
+                            "recipe": "Lasagna22"
+                        }
+                    ]
+                },
+                {
+                    "id": "Level_12_03",
+                    "base": "Level_ClawTutorial",
+                    "layout": "Level_06_02",
+                    "type": "Lasagna",
+                    "customers_time_interval": 4500,
+                    "recipes_params": [
+                        {
+                            "recipe": "Lasagna22",
+                            "count": 10
+                        },
+                        {
+                            "recipe": "Lasagna24",
+                            "count": 10
+                        },
+                        {
+                            "recipe": "Lasagna24",
+                            "count": 1
+                        }
+                    ],
+                    "bonus_recipes_params": [
+                        "Lasagna22",
+                        "Lasagna24"
+                    ],
+                    "tutorial_customers": [
+                        {
+                            "customer": "Yappie",
+                            "recipe": "Lasagna22"
+                        }
+                    ]
+                },
+                {
+                    "id": "Level_CatchIngredients_Lasagna12",
+                    "base": "LevelCatchIngredients",
+                    "layout": "Level_CatchIngredients_Lasagna12",
+                    "type": "Lasagna",
+                    "tutorial_conveyor_period": 10000,
+                    "order_cost_factor": 6,
+                    "ingredients_count": 7,
+                    "ingredients": [
+                        "LasagnaNoodle",
+                        "LasagnaSpinach",
+                        "LasagnaFish",
+                        "LasagnaBeef",
+                        "LasagnaTomatoes",
+                        "LasagnaMozarella"
+                    ],
+                    "objects_params": {
+                        "Conveyor0119": {
+                            "ingredients_speed": 32,
+                            "ingredients_period": 12000,
+                            "start_time": 9000
+                        },
+                        "Conveyor0121": {
+                            "ingredients_speed": 32,
+                            "ingredients_period": 7000,
+                            "start_time": 5000
+                        },
+                        "Conveyor0122": {
+                            "ingredients_speed": 32,
+                            "ingredients_period": 10500,
+                            "start_time": 25000
+                        },
+                        "Conveyor014": {
+                            "ingredients_speed": 32,
+                            "ingredients_period": 8000,
+                            "start_time": 11000
+                        },
+                        "Conveyor0125": {
+                            "ingredients_speed": 32,
+                            "ingredients_period": 13500,
+                            "start_time": 15000
+                        },
+                        "Conveyor0131": {
+                            "ingredients_speed": 32,
+                            "ingredients_period": 16000,
+                            "start_time": 1000
+                        }
+                    }
+                }
+            ]
+        },
+        "Cafe_13": {
+            "levels": [
+                {
+                    "id": "Level_13_01",
+                    "base": "Level_ClawTutorial",
+                    "layout": "Level_07_01",
+                    "type": "Burger",
+                    "customers_time_interval": 4800,
+                    "recipes_params": [
+                        {
+                            "recipe": "Food_o_Morning",
+                            "count": 9
+                        },
+                        {
+                            "recipe": "Lot_o_Meat",
+                            "count": 9
+                        }
+                    ],
+                    "bonus_recipes_params": [
+                        "Food_o_Morning",
+                        "Lot_o_Meat"
+                    ],
+                    "tutorial_customers": [
+                        {
+                            "customer": "Younggirl",
+                            "recipe": "Lot_o_Meat"
+                        }
+                    ]
+                },
+                {
+                    "id": "Level_13_02",
+                    "base": "Level_ClawTutorial",
+                    "layout": "Level_07_01",
+                    "type": "Burger",
+                    "customers_time_interval": 4800,
+                    "recipes_params": [
+                        {
+                            "recipe": "Food_o_Morning",
+                            "count": 7
+                        },
+                        {
+                            "recipe": "Lot_o_Meat",
+                            "count": 7
+                        },
+                        {
+                            "recipe": "Vegetarian_Meal",
+                            "count": 5
+                        }
+                    ],
+                    "bonus_recipes_params": [
+                        "Food_o_Morning",
+                        "Lot_o_Meat",
+                        "Vegetarian_Meal"
+                    ],
+                    "tutorial_customers": [
+                        {
+                            "customer": "Younggirl",
+                            "recipe": "Lot_o_Meat"
+                        }
+                    ]
+                },
+                {
+                    "id": "Level_13_03",
+                    "base": "Level_ClawTutorial",
+                    "layout": "Level_07_02",
+                    "type": "Burger",
+                    "customers_time_interval": 4800,
+                    "recipes_params": [
+                        {
+                            "recipe": "Lot_o_Meat",
+                            "count": 6
+                        },
+                        {
+                            "recipe": "Vegetarian_Meal",
+                            "count": 6
+                        },
+                        {
+                            "recipe": "Veggie_o_Fish",
+                            "count": 7
+                        }
+                    ],
+                    "bonus_recipes_params": [
+                        "Lot_o_Meat",
+                        "Vegetarian_Meal",
+                        "Veggie_o_Fish"
+                    ],
+                    "tutorial_customers": [
+                        {
+                            "customer": "Younggirl",
+                            "recipe": "Lot_o_Meat"
+                        }
+                    ]
+                }
+            ]
+        },
+        "Cafe_14": {
+            "levels": [
+                {
+                    "id": "Level_14_01",
+                    "base": "Level_ClawTutorial",
+                    "layout": "Level_07_01",
+                    "type": "Burger",
+                    "customers_time_interval": 4800,
+                    "recipes_params": [
+                        {
+                            "recipe": "Leaf_o_Beaf",
+                            "count": 18
+                        },
+                        {
+                            "recipe": "Leaf_o_Fish",
+                            "count": 18
+                        },
+                        {
+                            "recipe": "Egg_In_Leaf",
+                            "count": 18
+                        }
+                    ],
+                    "bonus_recipes_params": [
+                        "Leaf_o_Beaf",
+                        "Leaf_o_Fish",
+                        "Egg_In_Leaf"
+                    ],
+                    "ranks": [
+                        {
+                            "customers_lost_over": 2,
+                            "expenditures_over_factor": 10,
+                            "text": "Poor"
+                        },
+                        {
+                            "customers_lost_over": 1,
+                            "expenditures_over_factor": 4,
+                            "text": "Good"
+                        },
+                        {
+                            "customers_lost_over": 0,
+                            "expenditures_over_factor": 2,
+                            "text": "Excellent",
+                            "customers_to_consumes_over_factor": 0.4
+                        },
+                        {
+                            "expenditures_over_factor": 1,
+                            "text": "Perfect",
+                            "customers_to_consumes_over_factor": 0.6
+                        },
+                        {
+                            "text": "Incredible"
+                        }
+                    ],
+                    "tutorial_customers": [
+                        {
+                            "customer": "Mom",
+                            "recipe": "Leaf_o_Fish"
+                        }
+                    ]
+                },
+                {
+                    "id": "Level_14_02",
+                    "base": "Level_ClawTutorial",
+                    "layout": "Level_07_01",
+                    "type": "Burger",
+                    "customers_time_interval": 4800,
+                    "recipes_params": [
+                        {
+                            "recipe": "Leaf_o_Fish",
+                            "count": 20
+                        },
+                        {
+                            "recipe": "Leaf_o_Chick",
+                            "count": 20
+                        },
+                        {
+                            "recipe": "Egg_In_Leaf",
+                            "count": 18
+                        }
+                    ],
+                    "bonus_recipes_params": [
+                        "Leaf_o_Fish",
+                        "Leaf_o_Chick",
+                        "Egg_In_Leaf"
+                    ],
+                    "ranks": [
+                        {
+                            "customers_lost_over": 2,
+                            "expenditures_over_factor": 10,
+                            "text": "Poor"
+                        },
+                        {
+                            "customers_lost_over": 1,
+                            "expenditures_over_factor": 4,
+                            "text": "Good"
+                        },
+                        {
+                            "customers_lost_over": 0,
+                            "expenditures_over_factor": 2,
+                            "text": "Excellent",
+                            "customers_to_consumes_over_factor": 0.4
+                        },
+                        {
+                            "expenditures_over_factor": 1,
+                            "text": "Perfect",
+                            "customers_to_consumes_over_factor": 0.6
+                        },
+                        {
+                            "text": "Incredible"
+                        }
+                    ],
+                    "tutorial_customers": [
+                        {
+                            "customer": "Mom",
+                            "recipe": "Leaf_o_Fish"
+                        }
+                    ]
+                },
+                {
+                    "id": "Level_14_03",
+                    "base": "Level_ClawTutorial",
+                    "layout": "Level_07_02",
+                    "type": "Burger",
+                    "customers_time_interval": 4800,
+                    "recipes_params": [
+                        {
+                            "recipe": "Leaf_o_Beaf",
+                            "count": 10
+                        },
+                        {
+                            "recipe": "Egg_In_Leaf",
+                            "count": 22
+                        },
+                        {
+                            "recipe": "Leaf_o_Chick",
+                            "count": 10
+                        },
+                        {
+                            "recipe": "Leaf_o_Fish",
+                            "count": 22
+                        }
+                    ],
+                    "bonus_recipes_params": [
+                        "Leaf_o_Beaf",
+                        "Egg_In_Leaf",
+                        "Leaf_o_Chick",
+                        "Leaf_o_Fish"
+                    ],
+                    "ranks": [
+                        {
+                            "customers_lost_over": 2,
+                            "expenditures_over_factor": 10,
+                            "text": "Poor"
+                        },
+                        {
+                            "customers_lost_over": 1,
+                            "expenditures_over_factor": 4,
+                            "text": "Good"
+                        },
+                        {
+                            "customers_lost_over": 0,
+                            "expenditures_over_factor": 2,
+                            "text": "Excellent",
+                            "customers_to_consumes_over_factor": 0.4
+                        },
+                        {
+                            "expenditures_over_factor": 1,
+                            "text": "Perfect",
+                            "customers_to_consumes_over_factor": 0.6
+                        },
+                        {
+                            "text": "Incredible"
+                        }
+                    ],
+                    "tutorial_customers": [
+                        {
+                            "customer": "Deliveryboy",
+                            "recipe": "Leaf_o_Beaf"
+                        }
+                    ]
+                },
+                {
+                    "id": "Level_Tapper_Burger_14",
+                    "base": "LevelTapper",
+                    "layout": "Level_Tapper_Burger14",
+                    "type": "Burger",
+                    "customers_time_interval": 1300,
+                    "order_cost_factor": 1.9,
+                    "customers_params": [
+                        {
+                            "class": "Younggirl",
+                            "count": 14
+                        },
+                        {
+                            "class": "Teenager",
+                            "count": 14
+                        },
+                        {
+                            "class": "Deliveryboy",
+                            "count": 14
+                        }
+                    ],
+                    "objects_params": {
+                        "CustomersQueueTapper10": {
+                            "customers_step_period": 5000
+                        },
+                        "CustomersQueueTapper11": {
+                            "max_customers": 2
+                        },
+                        "ConveyorSandwiches12": {
+                            "recipe": "Salad1"
+                        },
+                        "ConveyorSandwiches2": {
+                            "recipe": "Salad1"
+                        },
+                        "ConveyorSandwiches9": {
+                            "recipe": "Salad1"
+                        },
+                        "ConveyorSandwiches18": {
+                            "recipe": "Salad1"
+                        }
+                    },
+                    "penalty_cost": 49.24
+                }
+            ]
+        },
+        "Cafe_15": {
+            "levels": [
+                {
+                    "id": "Level_15_01",
+                    "base": "Level_ClawTutorial",
+                    "layout": "Level_08_01",
+                    "type": "Cake",
+                    "customers_time_interval": 4800,
+                    "recipes_params": [
+                        {
+                            "recipe": "Cake22",
+                            "count": 10
+                        },
+                        {
+                            "recipe": "Cake24",
+                            "count": 9
+                        }
+                    ],
+                    "bonus_recipes_params": [
+                        "Cake22",
+                        "Cake24"
+                    ],
+                    "tutorial_customers": [
+                        {
+                            "customer": "Younggirl",
+                            "recipe": "Cake24"
+                        }
+                    ]
+                },
+                {
+                    "id": "Level_15_02",
+                    "base": "Level_ClawTutorial",
+                    "layout": "Level_08_01",
+                    "type": "Cake",
+                    "customers_time_interval": 4800,
+                    "recipes_params": [
+                        {
+                            "recipe": "Cake22",
+                            "count": 7
+                        },
+                        {
+                            "recipe": "Cake24",
+                            "count": 7
+                        },
+                        {
+                            "recipe": "Cake25",
+                            "count": 7
+                        }
+                    ],
+                    "bonus_recipes_params": [
+                        "Cake22",
+                        "Cake24",
+                        "Cake25"
+                    ],
+                    "tutorial_customers": [
+                        {
+                            "customer": "Younggirl",
+                            "recipe": "Cake24"
+                        }
+                    ]
+                },
+                {
+                    "id": "Level_15_03",
+                    "base": "Level_ClawTutorial",
+                    "layout": "Level_08_02",
+                    "type": "Cake",
+                    "customers_time_interval": 4800,
+                    "recipes_params": [
+                        {
+                            "recipe": "Cake23",
+                            "count": 6
+                        },
+                        {
+                            "recipe": "Cake24",
+                            "count": 7
+                        },
+                        {
+                            "recipe": "Cake25",
+                            "count": 6
+                        },
+                        {
+                            "recipe": "Cake25",
+                            "count": 1
+                        },
+                        {
+                            "recipe": "Cake23",
+                            "count": 1
+                        }
+                    ],
+                    "bonus_recipes_params": [
+                        "Cake23",
+                        "Cake24",
+                        "Cake25"
+                    ],
+                    "tutorial_customers": [
+                        {
+                            "customer": "Deliveryboy",
+                            "recipe": "Cake23"
+                        }
+                    ],
+                    "next": [
+                        "Level_16_01",
+                        "Level_17_01"
+                    ]
+                }
+            ]
+        },
+        "Cafe_16": {
+            "levels": [
+                {
+                    "id": "Level_16_01",
+                    "base": "Level_ClawTutorial",
+                    "layout": "Level_08_01_M",
+                    "type": "Cake",
+                    "customers_time_interval": 4800,
+                    "recipes_params": [
+                        {
+                            "recipe": "Cake22",
+                            "count": 8
+                        },
+                        {
+                            "recipe": "Cake23",
+                            "count": 8
+                        },
+                        {
+                            "recipe": "Cake25",
+                            "count": 8
+                        }
+                    ],
+                    "bonus_recipes_params": [
+                        "Cake22",
+                        "Cake23",
+                        "Cake25"
+                    ],
+                    "tutorial_customers": [
+                        {
+                            "customer": "Yappie",
+                            "recipe": "Cake22"
+                        }
+                    ]
+                },
+                {
+                    "id": "Level_16_02",
+                    "base": "Level_ClawTutorial",
+                    "layout": "Level_08_02_M",
+                    "type": "Cake",
+                    "customers_time_interval": 4800,
+                    "recipes_params": [
+                        {
+                            "recipe": "Cake30",
+                            "count": 13
+                        },
+                        {
+                            "recipe": "Cake32",
+                            "count": 13
+                        }
+                    ],
+                    "bonus_recipes_params": [
+                        "Cake30",
+                        "Cake32"
+                    ],
+                    "tutorial_customers": [
+                        {
+                            "customer": "Younggirl",
+                            "recipe": "Cake30"
+                        }
+                    ]
+                },
+                {
+                    "id": "Level_16_03",
+                    "base": "Level_ClawTutorial",
+                    "layout": "Level_08_03_M",
+                    "type": "Cake",
+                    "customers_time_interval": 4800,
+                    "recipes_params": [
+                        {
+                            "recipe": "Cake30",
+                            "count": 10
+                        },
+                        {
+                            "recipe": "Cake32",
+                            "count": 10
+                        },
+                        {
+                            "recipe": "Cake35",
+                            "count": 8
+                        }
+                    ],
+                    "bonus_recipes_params": [
+                        "Cake30",
+                        "Cake32",
+                        "Cake35"
+                    ],
+                    "tutorial_customers": [
+                        {
+                            "customer": "Younggirl",
+                            "recipe": "Cake30"
+                        }
+                    ]
+                },
+                {
+                    "id": "Level_CatchIngredients_Cake16",
+                    "base": "LevelCatchIngredients",
+                    "layout": "Level_CatchIngredients_Cake16",
+                    "type": "Cake",
+                    "order_cost_factor": 6,
+                    "ingredients_count": 8,
+                    "ingredients": [
+                        "Bilberry",
+                        "Waffle",
+                        "Strawberry",
+                        "Rose",
+                        "Jelly",
+                        "Chocolate"
+                    ],
+                    "objects_params": {
+                        "Conveyor0119": {
+                            "ingredients_speed": 32,
+                            "ingredients_period": 12000,
+                            "start_time": 9000
+                        },
+                        "Conveyor0121": {
+                            "ingredients_speed": 32,
+                            "ingredients_period": 7000,
+                            "start_time": 5000
+                        },
+                        "Conveyor0122": {
+                            "ingredients_speed": 32,
+                            "ingredients_period": 10500,
+                            "start_time": 25000
+                        },
+                        "Conveyor014": {
+                            "ingredients_speed": 32,
+                            "ingredients_period": 8000,
+                            "start_time": 11000
+                        },
+                        "Conveyor0125": {
+                            "ingredients_speed": 32,
+                            "ingredients_period": 13500,
+                            "start_time": 15000
+                        },
+                        "Conveyor0131": {
+                            "ingredients_speed": 32,
+                            "ingredients_period": 16000,
+                            "start_time": 1000
+                        }
+                    },
+                    "next": [
+                        "Level_19_01"
+                    ]
+                }
+            ]
+        },
+        "Cafe_17": {
+            "levels": [
+                {
+                    "id": "Level_17_01",
+                    "base": "Level_ClawTutorial",
+                    "layout": "Level_09_01",
+                    "type": "Lasagna",
+                    "customers_time_interval": 4800,
+                    "recipes_params": [
+                        {
+                            "recipe": "Lasagna24",
+                            "count": 10
+                        },
+                        {
+                            "recipe": "Lasagna23",
+                            "count": 10
+                        }
+                    ],
+                    "bonus_recipes_params": [
+                        "Lasagna24",
+                        "Lasagna23"
+                    ],
+                    "tutorial_customers": [
+                        {
+                            "customer": "Deliveryboy",
+                            "recipe": "Lasagna23"
+                        }
+                    ]
+                },
+                {
+                    "id": "Level_17_02",
+                    "base": "Level_ClawTutorial",
+                    "layout": "Level_09_02",
+                    "type": "Lasagna",
+                    "customers_time_interval": 4800,
+                    "recipes_params": [
+                        {
+                            "recipe": "Lasagna22",
+                            "count": 8
+                        },
+                        {
+                            "recipe": "Lasagna23",
+                            "count": 7
+                        },
+                        {
+                            "recipe": "Lasagna24",
+                            "count": 6
+                        }
+                    ],
+                    "bonus_recipes_params": [
+                        "Lasagna22",
+                        "Lasagna23",
+                        "Lasagna24"
+                    ],
+                    "tutorial_customers": [
+                        {
+                            "customer": "Deliveryboy",
+                            "recipe": "Lasagna23"
+                        }
+                    ]
+                },
+                {
+                    "id": "Level_17_03",
+                    "base": "Level_ClawTutorial",
+                    "layout": "Level_09_03",
+                    "type": "Lasagna",
+                    "customers_time_interval": 4800,
+                    "recipes_params": [
+                        {
+                            "recipe": "Lasagna22",
+                            "count": 8
+                        },
+                        {
+                            "recipe": "Lasagna24",
+                            "count": 8
+                        },
+                        {
+                            "recipe": "Lasagna28",
+                            "count": 8
+                        }
+                    ],
+                    "bonus_recipes_params": [
+                        "Lasagna22",
+                        "Lasagna24",
+                        "Lasagna28"
+                    ],
+                    "tutorial_customers": [
+                        {
+                            "customer": "Yappie",
+                            "recipe": "Lasagna22"
+                        }
+                    ]
+                }
+            ]
+        },
+        "Cafe_18": {
+            "levels": [
+                {
+                    "id": "Level_18_01",
+                    "base": "Level_ClawTutorial",
+                    "layout": "Level_09_01",
+                    "type": "Lasagna",
+                    "customers_time_interval": 4800,
+                    "recipes_params": [
+                        {
+                            "recipe": "Lasagna23",
+                            "count": 8
+                        },
+                        {
+                            "recipe": "Lasagna24",
+                            "count": 8
+                        },
+                        {
+                            "recipe": "Lasagna28",
+                            "count": 8
+                        }
+                    ],
+                    "bonus_recipes_params": [
+                        "Lasagna23",
+                        "Lasagna24",
+                        "Lasagna28"
+                    ],
+                    "tutorial_customers": [
+                        {
+                            "customer": "Deliveryboy",
+                            "recipe": "Lasagna23"
+                        }
+                    ]
+                },
+                {
+                    "id": "Level_18_02",
+                    "base": "Level_ClawTutorial",
+                    "layout": "Level_09_02",
+                    "type": "Lasagna",
+                    "customers_time_interval": 5000,
+                    "recipes_params": [
+                        {
+                            "recipe": "Lasagna30",
+                            "count": 12
+                        },
+                        {
+                            "recipe": "Lasagna35",
+                            "count": 12
+                        }
+                    ],
+                    "bonus_recipes_params": [
+                        "Lasagna30",
+                        "Lasagna35"
+                    ],
+                    "tutorial_customers": [
+                        {
+                            "customer": "Mom",
+                            "recipe": "Lasagna30"
+                        }
+                    ]
+                },
+                {
+                    "id": "Level_18_03",
+                    "base": "Level_ClawTutorial",
+                    "layout": "Level_09_03",
+                    "type": "Lasagna",
+                    "customers_time_interval": 4800,
+                    "recipes_params": [
+                        {
+                            "recipe": "Lasagna30",
+                            "count": 9
+                        },
+                        {
+                            "recipe": "Lasagna32",
+                            "count": 8
+                        },
+                        {
+                            "recipe": "Lasagna35",
+                            "count": 9
+                        }
+                    ],
+                    "bonus_recipes_params": [
+                        "Lasagna30",
+                        "Lasagna32",
+                        "Lasagna35"
+                    ],
+                    "tutorial_customers": [
+                        {
+                            "customer": "Geek",
+                            "recipe": "Lasagna32"
+                        }
+                    ]
+                },
+                {
+                    "id": "Level_BrokenConveyors_Lasagna_18",
+                    "base": "LevelBrokenConveyors",
+                    "layout": "Level_BrokenConveyors_Lasagna18",
+                    "type": "Lasagna",
+                    "customers_time_interval": 9000,
+                    "order_cost_factor": 1.2,
+                    "recipes_params": [
+                        {
+                            "recipe": "Lasagna30",
+                            "count": 8
+                        },
+                        {
+                            "recipe": "Lasagna32",
+                            "count": 8
+                        },
+                        {
+                            "recipe": "Lasagna35",
+                            "count": 8
+                        }
+                    ],
+                    "objects_params": {
+                        "Conveyor0322": {
+                            "ingredients_speed": 43,
+                            "ingredients_period": 12000,
+                            "start_time": 9000
+                        },
+                        "Conveyor0321": {
+                            "ingredients_speed": 43,
+                            "ingredients_period": 7000,
+                            "start_time": 5000
+                        },
+                        "Conveyor0311": {
+                            "ingredients_speed": 43,
+                            "ingredients_period": 10500,
+                            "start_time": 25000
+                        },
+                        "Conveyor034": {
+                            "ingredients_speed": 43,
+                            "ingredients_period": 8000,
+                            "start_time": 11000
+                        },
+                        "Conveyor033": {
+                            "ingredients_speed": 43,
+                            "ingredients_period": 13500,
+                            "start_time": 15000
+                        },
+                        "Conveyor032": {
+                            "ingredients_speed": 43,
+                            "ingredients_period": 16000,
+                            "start_time": 1000
+                        }
+                    },
+                    "difficulty_level_to_unreachable_objects": [
+                        [],
+                        [],
+                        [
+                            "Plate4",
+                            "BoxClaw",
+                            "PaperBoxes"
+                        ]
+                    ],
+                    "next": [
+                        "Level_20_01"
+                    ]
+                }
+            ]
+        },
+        "Cafe_19": {
+            "levels": [
+                {
+                    "id": "Level_19_01",
+                    "base": "Level_ClawTutorial",
+                    "layout": "Level_10_01",
+                    "type": "Burger",
+                    "customers_time_interval": 5100,
+                    "recipes_params": [
+                        {
+                            "recipe": "Bloodburger",
+                            "count": 10
+                        },
+                        {
+                            "recipe": "Mouse_Trap",
+                            "count": 9
+                        }
+                    ],
+                    "bonus_recipes_params": [
+                        "Bloodburger",
+                        "Mouse_Trap"
+                    ],
+                    "tutorial_customers": [
+                        {
+                            "customer": "Younggirl",
+                            "recipe": "Bloodburger"
+                        }
+                    ]
+                },
+                {
+                    "id": "Level_19_02",
+                    "base": "Level_ClawTutorial",
+                    "layout": "Level_10_02",
+                    "type": "Burger",
+                    "customers_time_interval": 5100,
+                    "recipes_params": [
+                        {
+                            "recipe": "Bloodburger",
+                            "count": 7
+                        },
+                        {
+                            "recipe": "French_Fish",
+                            "count": 6
+                        },
+                        {
+                            "recipe": "Mouse_Trap",
+                            "count": 7
+                        }
+                    ],
+                    "bonus_recipes_params": [
+                        "Bloodburger",
+                        "French_Fish",
+                        "Mouse_Trap"
+                    ],
+                    "tutorial_customers": [
+                        {
+                            "customer": "Younggirl",
+                            "recipe": "Bloodburger"
+                        }
+                    ]
+                },
+                {
+                    "id": "Level_19_03",
+                    "base": "Level_ClawTutorial",
+                    "layout": "Level_10_03",
+                    "type": "Burger",
+                    "customers_time_interval": 5100,
+                    "recipes_params": [
+                        {
+                            "recipe": "Bloodburger",
+                            "count": 6
+                        },
+                        {
+                            "recipe": "Tomato_Maniac",
+                            "count": 8
+                        },
+                        {
+                            "recipe": "Mouse_Trap",
+                            "count": 6
+                        }
+                    ],
+                    "bonus_recipes_params": [
+                        "Bloodburger",
+                        "Tomato_Maniac",
+                        "Mouse_Trap"
+                    ],
+                    "tutorial_customers": [
+                        {
+                            "customer": "Mom",
+                            "recipe": "Tomato_Maniac"
+                        }
+                    ]
+                }
+            ]
+        },
+        "Cafe_20": {
+            "levels": [
+                {
+                    "id": "Level_20_01",
+                    "base": "Level_ClawTutorial",
+                    "layout": "Level_10_01",
+                    "type": "Burger",
+                    "customers_time_interval": 5500,
+                    "recipes_params": [
+                        {
+                            "recipe": "Tomato_Maniac",
+                            "count": 7
+                        },
+                        {
+                            "recipe": "French_Fish",
+                            "count": 8
+                        },
+                        {
+                            "recipe": "Mouse_Trap",
+                            "count": 7
+                        }
+                    ],
+                    "bonus_recipes_params": [
+                        "Tomato_Maniac",
+                        "French_Fish",
+                        "Mouse_Trap"
+                    ],
+                    "tutorial_customers": [
+                        {
+                            "customer": "Teenager",
+                            "recipe": "Mouse_Trap"
+                        }
+                    ]
+                },
+                {
+                    "id": "Level_20_02",
+                    "base": "Level_ClawTutorial",
+                    "layout": "Level_10_02",
+                    "type": "Burger",
+                    "customers_time_interval": 7000,
+                    "recipes_params": [
+                        {
+                            "recipe": "Extraburger",
+                            "count": 10
+                        },
+                        {
+                            "recipe": "Hungry_Fox",
+                            "count": 10
+                        }
+                    ],
+                    "bonus_recipes_params": [
+                        "Extraburger",
+                        "Hungry_Fox"
+                    ],
+                    "tutorial_customers": [
+                        {
+                            "customer": "Yappie",
+                            "recipe": "Extraburger"
+                        }
+                    ]
+                },
+                {
+                    "id": "Level_20_03",
+                    "base": "Level_ClawTutorial",
+                    "layout": "Level_10_03",
+                    "type": "Burger",
+                    "customers_time_interval": 7000,
+                    "recipes_params": [
+                        {
+                            "recipe": "Extraburger",
+                            "count": 9
+                        },
+                        {
+                            "recipe": "Dreamburger",
+                            "count": 11
+                        }
+                    ],
+                    "bonus_recipes_params": [
+                        "Extraburger",
+                        "Dreamburger"
+                    ],
+                    "tutorial_customers": [
+                        {
+                            "customer": "Yappie",
+                            "recipe": "Extraburger"
+                        }
+                    ]
+                },
+                {
+                    "id": "Level_Norecipes_Burger20",
+                    "base": "LevelNorecipes",
+                    "type": "Burger",
+                    "customers_time_interval": 8000,
+                    "order_cost_factor": 2,
+                    "customers_params": [
+                        {
+                            "class": "Younggirl",
+                            "count": 7
+                        },
+                        {
+                            "class": "Mom",
+                            "count": 7
+                        },
+                        {
+                            "class": "Teenager",
+                            "count": 7
+                        },
+                        {
+                            "class": "Nikki",
+                            "count": 1
+                        }
+                    ],
+                    "recipes": [
+                        "Extraburger",
+                        "Dreamburger",
+                        "Hungry_Fox"
+                    ]
+                }
+            ]
+        },
+        "Cafe_21": {
+            "levels": [
+                {
+                    "id": "Level_21_01",
+                    "base": "Level_ClawTutorial",
+                    "layout": "Level_11_01",
+                    "type": "Cake",
+                    "customers_time_interval": 7700,
+                    "recipes_params": [
+                        {
+                            "recipe": "Cake36",
+                            "count": 11
+                        },
+                        {
+                            "recipe": "Cake39",
+                            "count": 11
+                        }
+                    ],
+                    "bonus_recipes_params": [
+                        "Cake36",
+                        "Cake39"
+                    ],
+                    "tutorial_customers": [
+                        {
+                            "customer": "Deliveryboy",
+                            "recipe": "Cake36"
+                        }
+                    ]
+                },
+                {
+                    "id": "Level_21_02",
+                    "base": "Level_ClawTutorial",
+                    "layout": "Level_11_02",
+                    "type": "Cake",
+                    "customers_time_interval": 7700,
+                    "recipes_params": [
+                        {
+                            "recipe": "Cake36",
+                            "count": 8
+                        },
+                        {
+                            "recipe": "Cake39",
+                            "count": 8
+                        },
+                        {
+                            "recipe": "Cake42",
+                            "count": 7
+                        }
+                    ],
+                    "bonus_recipes_params": [
+                        "Cake36",
+                        "Cake39",
+                        "Cake42"
+                    ],
+                    "tutorial_customers": [
+                        {
+                            "customer": "Geek",
+                            "recipe": "Cake39"
+                        }
+                    ]
+                },
+                {
+                    "id": "Level_21_03",
+                    "base": "Level_ClawTutorial",
+                    "layout": "Level_11_03",
+                    "type": "Cake",
+                    "customers_time_interval": 7700,
+                    "recipes_params": [
+                        {
+                            "recipe": "Cake36",
+                            "count": 9
+                        },
+                        {
+                            "recipe": "Cake37",
+                            "count": 8
+                        },
+                        {
+                            "recipe": "Cake42",
+                            "count": 8
+                        }
+                    ],
+                    "bonus_recipes_params": [
+                        "Cake36",
+                        "Cake37",
+                        "Cake42"
+                    ],
+                    "tutorial_customers": [
+                        {
+                            "customer": "Deliveryboy",
+                            "recipe": "Cake36"
+                        }
+                    ]
+                }
+            ]
+        },
+        "Cafe_22": {
+            "levels": [
+                {
+                    "id": "Level_22_01",
+                    "base": "Level_ClawTutorial",
+                    "layout": "Level_11_01",
+                    "type": "Cake",
+                    "customers_time_interval": 7700,
+                    "recipes_params": [
+                        {
+                            "recipe": "Cake43",
+                            "count": 10
+                        },
+                        {
+                            "recipe": "Cake45",
+                            "count": 10
+                        }
+                    ],
+                    "bonus_recipes_params": [
+                        "Cake43",
+                        "Cake45"
+                    ],
+                    "tutorial_customers": [
+                        {
+                            "customer": "Teenager",
+                            "recipe": "Cake45"
+                        }
+                    ]
+                },
+                {
+                    "id": "Level_22_02",
+                    "base": "Level_ClawTutorial",
+                    "layout": "Level_11_03",
+                    "type": "Cake",
+                    "customers_time_interval": 7700,
+                    "recipes_params": [
+                        {
+                            "recipe": "Cake43",
+                            "count": 11
+                        },
+                        {
+                            "recipe": "Cake44",
+                            "count": 11
+                        }
+                    ],
+                    "bonus_recipes_params": [
+                        "Cake43",
+                        "Cake44"
+                    ],
+                    "tutorial_customers": [
+                        {
+                            "customer": "Yappie",
+                            "recipe": "Cake44"
+                        }
+                    ]
+                },
+                {
+                    "id": "Level_22_03",
+                    "base": "Level_ClawTutorial",
+                    "layout": "Level_11_03",
+                    "type": "Cake",
+                    "customers_time_interval": 8000,
+                    "recipes_params": [
+                        {
+                            "recipe": "Cake43",
+                            "count": 8
+                        },
+                        {
+                            "recipe": "Cake44",
+                            "count": 7
+                        },
+                        {
+                            "recipe": "Cake45",
+                            "count": 8
+                        },
+                        {
+                            "recipe": "Cake44",
+                            "count": 1
+                        },
+                        {
+                            "recipe": "Cake43",
+                            "count": 1
+                        }
+                    ],
+                    "bonus_recipes_params": [
+                        "Cake43",
+                        "Cake44",
+                        "Cake45"
+                    ],
+                    "tutorial_customers": [
+                        {
+                            "customer": "Younggirl",
+                            "recipe": "Cake43"
+                        }
+                    ]
+                },
+                {
+                    "id": "Level_CatchIngredients_Cake22",
+                    "base": "LevelCatchIngredients",
+                    "layout": "Level_CatchIngredients_Cake22",
+                    "type": "Cake",
+                    "order_cost_factor": 6,
+                    "ingredients_count": 9,
+                    "ingredients": [
+                        "Bilberry",
+                        "Waffle",
+                        "Strawberry",
+                        "Rose",
+                        "Jelly",
+                        "Chocolate"
+                    ],
+                    "objects_params": {
+                        "Conveyor0119": {
+                            "ingredients_speed": 32,
+                            "ingredients_period": 26000,
+                            "start_time": 25000
+                        },
+                        "Conveyor0121": {
+                            "ingredients_speed": 32,
+                            "ingredients_period": 7000,
+                            "start_time": 5000
+                        },
+                        "Conveyor0122": {
+                            "ingredients_speed": 32,
+                            "ingredients_period": 12000,
+                            "start_time": 9000
+                        },
+                        "Conveyor014": {
+                            "ingredients_speed": 32,
+                            "ingredients_period": 8000,
+                            "start_time": 11000
+                        },
+                        "Conveyor0125": {
+                            "ingredients_speed": 32,
+                            "ingredients_period": 16000,
+                            "start_time": 1000
+                        },
+                        "Conveyor0131": {
+                            "ingredients_speed": 32,
+                            "ingredients_period": 23500,
+                            "start_time": 15000
+                        }
+                    }
+                }
+            ]
+        },
+        "Cafe_23": {
+            "levels": [
+                {
+                    "id": "Level_23_01",
+                    "base": "Level_ClawTutorial",
+                    "layout": "Level_12_01",
+                    "type": "Lasagna",
+                    "customers_time_interval": 7700,
+                    "recipes_params": [
+                        {
+                            "recipe": "Lasagna36",
+                            "count": 11
+                        },
+                        {
+                            "recipe": "Lasagna42",
+                            "count": 12
+                        }
+                    ],
+                    "bonus_recipes_params": [
+                        "Lasagna36",
+                        "Lasagna42"
+                    ],
+                    "tutorial_customers": [
+                        {
+                            "customer": "Geek",
+                            "recipe": "Lasagna36"
+                        }
+                    ]
+                },
+                {
+                    "id": "Level_23_02",
+                    "base": "Level_ClawTutorial",
+                    "layout": "Level_12_02",
+                    "type": "Lasagna",
+                    "customers_time_interval": 7700,
+                    "recipes_params": [
+                        {
+                            "recipe": "Lasagna37",
+                            "count": 7
+                        },
+                        {
+                            "recipe": "Lasagna41",
+                            "count": 7
+                        },
+                        {
+                            "recipe": "Lasagna42",
+                            "count": 10
+                        }
+                    ],
+                    "bonus_recipes_params": [
+                        "Lasagna37",
+                        "Lasagna42",
+                        "Lasagna41"
+                    ],
+                    "tutorial_customers": [
+                        {
+                            "customer": "Mom",
+                            "recipe": "Lasagna37"
+                        }
+                    ]
+                },
+                {
+                    "id": "Level_23_03",
+                    "base": "Level_ClawTutorial",
+                    "layout": "Level_12_03",
+                    "type": "Lasagna",
+                    "customers_time_interval": 7700,
+                    "recipes_params": [
+                        {
+                            "recipe": "Lasagna43",
+                            "count": 12
+                        },
+                        {
+                            "recipe": "Lasagna49",
+                            "count": 12
+                        }
+                    ],
+                    "bonus_recipes_params": [
+                        "Lasagna43",
+                        "Lasagna49"
+                    ],
+                    "tutorial_customers": [
+                        {
+                            "customer": "Yappie",
+                            "recipe": "Lasagna43"
+                        }
+                    ]
+                }
+            ]
+        },
+        "Cafe_24": {
+            "levels": [
+                {
+                    "id": "Level_24_01",
+                    "base": "Level_ClawTutorial",
+                    "layout": "Level_12_01",
+                    "type": "Lasagna",
+                    "customers_time_interval": 7700,
+                    "recipes_params": [
+                        {
+                            "recipe": "Lasagna43",
+                            "count": 9
+                        },
+                        {
+                            "recipe": "Lasagna44",
+                            "count": 6
+                        },
+                        {
+                            "recipe": "Lasagna49",
+                            "count": 9
+                        }
+                    ],
+                    "bonus_recipes_params": [
+                        "Lasagna43",
+                        "Lasagna44",
+                        "Lasagna49"
+                    ],
+                    "tutorial_customers": [
+                        {
+                            "customer": "Younggirl",
+                            "recipe": "Lasagna49"
+                        }
+                    ]
+                },
+                {
+                    "id": "Level_24_02",
+                    "base": "Level_ClawTutorial",
+                    "layout": "Level_12_02",
+                    "type": "Lasagna",
+                    "customers_time_interval": 7700,
+                    "recipes_params": [
+                        {
+                            "recipe": "Lasagna44",
+                            "count": 8
+                        },
+                        {
+                            "recipe": "Lasagna45",
+                            "count": 8
+                        },
+                        {
+                            "recipe": "Lasagna49",
+                            "count": 8
+                        }
+                    ],
+                    "bonus_recipes_params": [
+                        "Lasagna44",
+                        "Lasagna45",
+                        "Lasagna49"
+                    ],
+                    "tutorial_customers": [
+                        {
+                            "customer": "Oldwoman",
+                            "recipe": "Lasagna45"
+                        }
+                    ]
+                },
+                {
+                    "id": "Level_24_03",
+                    "base": "Level_ClawTutorial",
+                    "layout": "Level_12_03",
+                    "type": "Lasagna",
+                    "customers_time_interval": 7700,
+                    "recipes_params": [
+                        {
+                            "recipe": "Lasagna43",
+                            "count": 7
+                        },
+                        {
+                            "recipe": "Lasagna44",
+                            "count": 8
+                        },
+                        {
+                            "recipe": "Lasagna45",
+                            "count": 9
+                        }
+                    ],
+                    "bonus_recipes_params": [
+                        "Lasagna43",
+                        "Lasagna44",
+                        "Lasagna45"
+                    ],
+                    "tutorial_customers": [
+                        {
+                            "customer": "Yappie",
+                            "recipe": "Lasagna43"
+                        }
+                    ]
+                },
+                {
+                    "id": "Level_Tapper_Lasagna_24",
+                    "base": "LevelTapper",
+                    "layout": "Level_Tapper_Lasagna24",
+                    "type": "Lasagna",
+                    "customers_time_interval": 900,
+                    "order_cost_factor": 1.5,
+                    "customers_params": [
+                        {
+                            "class": "Yappie",
+                            "count": 15
+                        },
+                        {
+                            "class": "Geek",
+                            "count": 15
+                        },
+                        {
+                            "class": "Teenager",
+                            "count": 15
+                        }
+                    ],
+                    "objects_params": {
+                        "CustomersQueueTapper10": {
+                            "customers_step_period": 5000
+                        },
+                        "CustomersQueueTapper11": {
+                            "max_customers": 2
+                        },
+                        "ConveyorSandwiches12": {
+                            "recipe": "Lasagna451"
+                        },
+                        "ConveyorSandwiches2": {
+                            "recipe": "Lasagna451"
+                        },
+                        "ConveyorSandwiches9": {
+                            "recipe": "Lasagna451"
+                        },
+                        "ConveyorSandwiches18": {
+                            "recipe": "Lasagna451"
+                        }
+                    },
+                    "penalty_cost": 54
+                }
+            ]
+        },
+        "Cafe_25": {
+            "levels": [
+                {
+                    "id": "Level_25_01",
+                    "base": "Level_ClawTutorial",
+                    "layout": "Level_12_01",
+                    "type": "Lasagna",
+                    "customers_time_interval": 7700,
+                    "recipes_params": [
+                        {
+                            "recipe": "Lasagna51",
+                            "count": 12
+                        },
+                        {
+                            "recipe": "Lasagna56",
+                            "count": 12
+                        }
+                    ],
+                    "bonus_recipes_params": [
+                        "Lasagna51",
+                        "Lasagna56"
+                    ],
+                    "tutorial_customers": [
+                        {
+                            "customer": "Deliveryboy",
+                            "recipe": "Lasagna51"
+                        }
+                    ]
+                },
+                {
+                    "id": "Level_25_02",
+                    "base": "Level_ClawTutorial",
+                    "layout": "Level_12_02",
+                    "type": "Lasagna",
+                    "customers_time_interval": 7700,
+                    "recipes_params": [
+                        {
+                            "recipe": "Lasagna55",
+                            "count": 14
+                        },
+                        {
+                            "recipe": "Lasagna56",
+                            "count": 14
+                        }
+                    ],
+                    "bonus_recipes_params": [
+                        "Lasagna55",
+                        "Lasagna56"
+                    ],
+                    "tutorial_customers": [
+                        {
+                            "customer": "Geek",
+                            "recipe": "Lasagna55"
+                        }
+                    ]
+                },
+                {
+                    "id": "Level_25_03",
+                    "base": "Level_ClawTutorial",
+                    "layout": "Level_12_03",
+                    "type": "Lasagna",
+                    "customers_time_interval": 8700,
+                    "recipes_params": [
+                        {
+                            "recipe": "Lasagna51",
+                            "count": 20
+                        },
+                        {
+                            "recipe": "Lasagna55",
+                            "count": 19
+                        },
+                        {
+                            "recipe": "Lasagna55",
+                            "count": 1
+                        }
+                    ],
+                    "bonus_recipes_params": [
+                        "Lasagna51",
+                        "Lasagna55"
+                    ],
+                    "tutorial_customers": [
+                        {
+                            "customer": "Deliveryboy",
+                            "recipe": "Lasagna51"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "consts": {
+        "snack_waiting_time_bonuses_factor": 0.2,
+        "container_capacity_up1": 10,
+        "container_capacity_up2": 20,
+        "container_capacity_up3": 30,
+        "secret_sauce_capacity": 5,
+        "sauce_capacity": 25,
+        "sauce_increase": 1,
+        "plate1_cost": 50,
+        "zefir_cost": 1.6
+    }
+}
