@@ -9,8 +9,8 @@ updates:
       time: "00:00"
       timezone: US/Eastern
     open-pull-requests-limit: 10
-  - package-ecosystem: maven
-    directory: /
+  - package-ecosystem: npm
+    directory: /*/*
     labels: [dependencies]
     assignees: [Katsute]
     schedule:

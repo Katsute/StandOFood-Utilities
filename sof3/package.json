@@ -1,0 +1,13 @@
+{
+    "name": "sofu-3",
+    "private": true,
+    "scripts": {
+        "compile": "node compile.js",
+        "decompile": "node decompile.js",
+        "level": "node level.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Katsute/StandOFood-Utilities.git"
+    }
+}
